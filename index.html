@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Timeline Maps</title>
+<meta name="description" content="Side-by-side timeline maps comparing events, companies and eras.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.maps { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); gap: 20px }
+.card { display: grid; text-decoration: none; overflow: hidden }
+.card img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-bottom: 1px solid var(--rule); background: var(--grid) }
+.card .body { padding: 16px 18px 18px; display: grid; gap: 6px }
+.card h2 { margin: 0 }
+.card p { margin: 0; color: var(--muted) }
+.card .meta { font-family: var(--mono); font-size: 12px; color: var(--faint); letter-spacing: .04em }
+.card:hover h2 { text-decoration: underline; text-underline-offset: 3px }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="./"><i aria-hidden="true"><b style="background:var(--xbox)"></b><b style="background:var(--ps)"></b><b style="background:var(--nin)"></b></i>Timeline Maps</a>
+  <nav aria-label="Maps"><a href="console-wars/">Console Wars</a><a href="do-exclusives-sell-consoles/">Do exclusives sell consoles?</a></nav>
+</header>
+<main class="wrap">
+  <header style="display:grid;gap:8px">
+    <div class="eyebrow">A collection of comparison maps</div>
+    <h1>Timeline Maps</h1>
+    <p class="lede">Side-by-side timelines that put events, companies and eras on one shared axis, so you can see what was happening at the same time. Every map lists its sources and marks which figures are estimates.</p>
+  </header>
+  <section class="maps" aria-label="All maps">
+    <a class="panel card" href="do-exclusives-sell-consoles/">
+      <img src="assets/thumb-exclusives.png" alt="Line chart of yearly console sales from 2005 to 2026 with game releases marked" width="900" height="600">
+      <div class="body">
+        <div class="meta">INTERACTIVE · 2005–2026 · 15 CONSOLES</div>
+        <h2>Do exclusives sell consoles?</h2>
+        <p>Yearly hardware sales for every Xbox, PlayStation and Nintendo console, with 46 hit and miss exclusives marked. Filter, hover and line consoles up by age.</p>
+      </div>
+    </a>
+    <a class="panel card" href="console-wars/">
+      <img src="assets/thumb-console-wars.png" alt="Poster comparing Xbox, PlayStation and Nintendo consoles and games from 2000 to 2026" width="900" height="600">
+      <div class="body">
+        <div class="meta">POSTER · 36 × 24 IN · 2000–2026</div>
+        <h2>Console Wars: Xbox vs. PlayStation vs. Nintendo</h2>
+        <p>Every console, handheld and signature hit since 2000, with a generation-by-generation sales scoreboard and key moments.</p>
+      </div>
+    </a>
+  </section>
+</main>
+<footer class="site">Made November 2026. Data from company reports, VGChartz estimates and other sources listed on each map.</footer>
+</body>
+</html>

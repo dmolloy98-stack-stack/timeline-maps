@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Console Wars Poster</title>
+<meta name="description" content="Xbox vs. PlayStation vs. Nintendo: every console, handheld and signature hit from 2000 to 2026.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+<style>
+.poster { padding: 10px; overflow-x: auto }
+.poster a { display: block; min-width: 900px }
+.poster img { display: block; width: 100%; height: auto; border-radius: 6px }
+.actions { display: flex; flex-wrap: wrap; gap: 10px }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 12px }
+.fact { padding: 14px 16px; display: grid; gap: 2px }
+.fact .n { font-family: var(--display); font-weight: 800; font-size: 34px; line-height: 1.1; font-variant-numeric: tabular-nums }
+.fact .l { color: var(--muted); font-size: 14px }
+.notes { padding: 18px 20px; color: var(--muted); font-size: 14px; display: grid; gap: 8px }
+.notes p { margin: 0 }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../"><i aria-hidden="true"><b style="background:var(--xbox)"></b><b style="background:var(--ps)"></b><b style="background:var(--nin)"></b></i>Timeline Maps</a>
+  <nav aria-label="Maps"><a href="./" aria-current="page">Console Wars</a><a href="../do-exclusives-sell-consoles/">Do exclusives sell consoles?</a></nav>
+</header>
+<main class="wrap">
+  <header style="display:grid;gap:8px">
+    <div class="eyebrow">Poster · 36 × 24 in · data through Sept. 30, 2026</div>
+    <h1>Xbox vs. PlayStation vs. Nintendo</h1>
+    <p class="lede">Every console, handheld and signature first-party hit from 2000 to today, with a generation-by-generation scoreboard of hardware units sold. Click the poster to open it at full size.</p>
+  </header>
+  <div class="actions">
+    <a class="btn" href="console-wars-2000-2026_v2.pdf">Download PDF (print, 36 × 24 in)</a>
+    <a class="btn quiet" href="console-wars-2000-2026_v2.png">Full-size PNG (5400 × 3600)</a>
+    <a class="btn quiet" href="console-wars-data_v2.csv">Data (CSV)</a>
+  </div>
+  <div class="panel poster"><a href="console-wars-2000-2026_v2.png"><img src="poster-web.png" alt="Console Wars poster: three bands for Xbox, PlayStation and Nintendo showing console lifespans, units sold, handhelds and signature games from 2000 to 2026, with a generation scoreboard at the top" width="2700" height="1800"></a></div>
+  <section class="facts" aria-label="Lifetime hardware totals">
+    <div class="panel fact"><span class="n" style="color:var(--nin)">632M</span><span class="l">Nintendo hardware, 2000–2026 (320M home + 311M handheld)</span></div>
+    <div class="panel fact"><span class="n" style="color:var(--ps)">≈558M</span><span class="l">PlayStation hardware (462M home + ≈95M handheld)</span></div>
+    <div class="panel fact"><span class="n" style="color:var(--xbox)">≈200M</span><span class="l">Xbox hardware (home consoles only; no handheld)</span></div>
+  </section>
+  <section class="panel notes">
+    <h2 style="color:var(--ink)">About the data</h2>
+    <p>Nintendo and Sony hardware figures are company-reported. Xbox One, Xbox Series X|S, PSP and PS Vita are estimates because the companies stopped reporting them. Game figures are reference points, not a ranking: some include PC copies, Microsoft reports players for recent games, and Wii Sports and Kinect Adventures! were bundled with hardware.</p>
+    <p>Sources include Nintendo's investor-relations sales data, Sony's quarterly results and Microsoft statements; the full list is in the data file.</p>
+  </section>
+</main>
+<footer class="site">Made November 2026 · <a href="../">All maps</a></footer>
+</body>
+</html>

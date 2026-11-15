@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Do Exclusives Sell Consoles?</title>
+<meta name="description" content="Yearly hardware sales for every Xbox, PlayStation and Nintendo console, 2005–2026, with hit and miss exclusives marked.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one wide chart panel, controls above, findings + notes below in two columns */
+:root {
+  --bg: #F3F5F8; --panel: #FFFFFF; --ink: #121821; --muted: #5A6577; --faint: #8A93A3;
+  --rule: #DCE1E8; --grid: #E8ECF1; --accent: #2B3A55;
+  --xbox: #107C10; --ps: #1546B0; --nin: #D9111E;
+  --xbox-soft: rgba(16,124,16,.12); --ps-soft: rgba(21,70,176,.12); --nin-soft: rgba(217,17,30,.12);
+  --tip: #121821; --tip-ink: #F3F5F8;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0E1219; --panel: #161C26; --ink: #E9EDF3; --muted: #A2ACBB; --faint: #6F7A8B;
+  --rule: #2A3341; --grid: #212936; --accent: #C9D4E6;
+  --xbox: #3FB83F; --ps: #6B98FF; --nin: #FF5A64;
+  --xbox-soft: rgba(63,184,63,.16); --ps-soft: rgba(107,152,255,.16); --nin-soft: rgba(255,90,100,.16);
+  --tip: #E9EDF3; --tip-ink: #121821; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0E1219; --panel: #161C26; --ink: #E9EDF3; --muted: #A2ACBB; --faint: #6F7A8B;
+  --rule: #2A3341; --grid: #212936; --accent: #C9D4E6;
+  --xbox: #3FB83F; --ps: #6B98FF; --nin: #FF5A64;
+  --xbox-soft: rgba(63,184,63,.16); --ps-soft: rgba(107,152,255,.16); --nin-soft: rgba(255,90,100,.16);
+  --tip: #E9EDF3; --tip-ink: #121821; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 48px }
+.wrap { max-width: 1240px; margin: 0 auto; display: grid; gap: 20px }
+header { display: grid; gap: 6px }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 5vw, 48px); line-height: 1.05; margin: 0; letter-spacing: -.01em; text-wrap: balance }
+.lede { color: var(--muted); max-width: 70ch; margin: 0; font-size: 16px }
+.lede b { color: var(--ink); font-weight: 600 }
+.panel { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px }
+.controls { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; padding: 14px 16px }
+.group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center }
+.group > span { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); margin-right: 4px }
+button.chip { font: 500 13px var(--body); color: var(--muted); background: transparent; border: 1px solid var(--rule); border-radius: 999px; padding: 5px 12px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px }
+button.chip[aria-pressed="true"] { color: var(--ink); border-color: var(--ink) }
+button.chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+button.chip .sw { width: 10px; height: 10px; border-radius: 50% }
+button.chip[aria-pressed="false"] .sw { opacity: .3 }
+.chartbox { padding: 8px 8px 4px; position: relative }
+.scroll { overflow-x: auto }
+svg#chart { display: block; width: 100%; min-width: 760px; height: auto; font-family: var(--body) }
+.axis text { fill: var(--muted); font-size: 12px; font-family: var(--mono) }
+.gridline { stroke: var(--grid); stroke-width: 1 }
+.zero { stroke: var(--rule); stroke-width: 1.5 }
+.series path { fill: none; stroke-width: 2.6; stroke-linejoin: round; stroke-linecap: round; transition: opacity .15s }
+.series.est path { stroke-dasharray: 7 5 }
+.series .pt { stroke: var(--panel); stroke-width: 1.5 }
+.series .pt.partial { fill: var(--panel) !important; stroke-width: 2 }
+.series text.lbl { font-size: 12.5px; font-weight: 600; paint-order: stroke; stroke: var(--panel); stroke-width: 4px; stroke-linejoin: round }
+.dim { opacity: .12 }
+.game { cursor: pointer }
+.game .hit { stroke: var(--panel); stroke-width: 2 }
+.game .miss { fill: var(--panel); stroke-width: 2.4 }
+.game:focus-visible { outline: none }
+.game:focus-visible .hit, .game:focus-visible .miss { stroke: var(--ink); stroke-width: 3 }
+.ctx line { stroke: var(--faint); stroke-width: 1; stroke-dasharray: 2 4 }
+.ctx text { fill: var(--muted); font-size: 11px; font-family: var(--body) }
+.tip { position: absolute; pointer-events: none; background: var(--panel); color: var(--ink); border: 1px solid var(--rule); border-radius: 8px; padding: 10px 12px; font-size: 13px; line-height: 1.4; max-width: 280px; box-shadow: 0 6px 20px rgba(0,0,0,.18); z-index: 5 }
+.tip .t { font-weight: 600; font-size: 14px }
+.tip .m { font-family: var(--mono); font-size: 11.5px; opacity: .75 }
+.tip .bars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 8px; align-items: end }
+.tip .bar { display: grid; gap: 2px; justify-items: center; font-family: var(--mono); font-size: 11px }
+.tip .bar i { display: block; width: 100%; border-radius: 3px 3px 0 0; background: currentColor; opacity: .55 }
+.tip .bar.on i { opacity: 1 }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 22px; padding: 10px 16px 14px; border-top: 1px solid var(--rule); font-size: 13px; color: var(--muted) }
+.legend span { display: inline-flex; align-items: center; gap: 8px }
+.cols { display: grid; grid-template-columns: 1.35fr 1fr; gap: 20px }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr } }
+.cols > * { min-width: 0 }
+section.panel { padding: 18px 20px }
+h2 { font-family: var(--display); font-weight: 700; font-size: 20px; margin: 0 0 10px; letter-spacing: -.005em }
+ol.find { margin: 0; padding-left: 20px; display: grid; gap: 10px }
+ol.find li::marker { font-family: var(--mono); color: var(--faint) }
+ol.find b { font-weight: 600 }
+.verdict { margin-top: 14px; padding: 12px 14px; border-radius: 8px; background: var(--grid); font-size: 15px }
+.notes { font-size: 13.5px; color: var(--muted); display: grid; gap: 8px }
+.notes p { margin: 0 }
+.notes a { color: var(--ink) }
+.notes ul { margin: 0; padding-left: 18px; display: grid; gap: 4px }
+.num { font-variant-numeric: tabular-nums }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+<style>
+.topbar { max-width: 1240px; margin: 0 auto 28px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; border-bottom: 1px solid var(--rule) }
+.brand { font-family: var(--display); font-weight: 800; font-size: 18px; text-decoration: none; color: var(--ink); display: inline-flex; align-items: center; gap: 10px }
+.brand i { display: inline-flex; gap: 3px } .brand i b { width: 6px; height: 18px; border-radius: 2px; display: block }
+.topbar nav { display: flex; gap: 18px; font-size: 14px; flex-wrap: wrap } .topbar nav a { text-decoration: none; color: var(--muted) }
+.topbar nav a[aria-current="page"], .topbar nav a:hover { color: var(--ink) }
+body { padding-top: 0 !important }
+.dl { margin-top: 4px } .dl a { color: var(--ink) }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../"><i aria-hidden="true"><b style="background:var(--xbox)"></b><b style="background:var(--ps)"></b><b style="background:var(--nin)"></b></i>Timeline Maps</a>
+  <nav aria-label="Maps"><a href="../console-wars/">Console Wars</a><a href="./" aria-current="page">Do exclusives sell consoles?</a></nav>
+</header>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Console Wars · companion map · yearly hardware sales, 2005–2026</div>
+    <h1>Do exclusives sell consoles?</h1>
+    <p class="lede">Each line is one console’s hardware sales per calendar year. Dots mark big platform exclusives: <b>filled dots are hits</b>, <b>hollow dots are notable misses</b>. Hover or tap a dot to see the console’s sales the year before, the year of and the year after its release.</p>
+  </header>
+
+  <div class="panel controls" role="group" aria-label="Chart filters">
+    <div class="group"><span>Company</span>
+      <button class="chip" id="f-xbox" data-co="Xbox" aria-pressed="true"><i class="sw" style="background:var(--xbox)"></i>Xbox</button>
+      <button class="chip" id="f-ps" data-co="PlayStation" aria-pressed="true"><i class="sw" style="background:var(--ps)"></i>PlayStation</button>
+      <button class="chip" id="f-nin" data-co="Nintendo" aria-pressed="true"><i class="sw" style="background:var(--nin)"></i>Nintendo</button>
+    </div>
+    <div class="group"><span>Hardware</span>
+      <button class="chip" id="f-home" data-type="home" aria-pressed="true">Home consoles</button>
+      <button class="chip" id="f-hand" data-type="hand" aria-pressed="true">Handhelds</button>
+    </div>
+    <div class="group"><span>Mark</span>
+      <button class="chip" id="f-hit" data-kind="hit" aria-pressed="true">Hits</button>
+      <button class="chip" id="f-miss" data-kind="miss" aria-pressed="true">Misses</button>
+      <button class="chip" id="f-ctx" aria-pressed="true">Other factors</button>
+    </div>
+    <div class="group"><span>Timeline</span>
+      <button class="chip" id="v-cal" data-view="cal" aria-pressed="true">Calendar years</button>
+      <button class="chip" id="v-age" data-view="age" aria-pressed="false">Years since launch</button>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="chartbox">
+      <div class="scroll"><svg id="chart" viewBox="0 0 1200 600" role="img" aria-label="Yearly hardware sales by console with exclusive game releases marked"></svg></div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <div class="legend">
+      <span><svg width="34" height="10"><line x1="0" y1="5" x2="34" y2="5" stroke="currentColor" stroke-width="2.6"/></svg>Company-reported shipments</span>
+      <span><svg width="34" height="10"><line x1="0" y1="5" x2="34" y2="5" stroke="currentColor" stroke-width="2.6" stroke-dasharray="7 5"/></svg>Estimate (VGChartz)</span>
+      <span><svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="currentColor"/></svg>Hit</span>
+      <span><svg width="14" height="14"><circle cx="7" cy="7" r="4.5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>Notable miss</span>
+      <span><svg width="14" height="14"><rect x="3" y="3" width="8" height="8" fill="none" stroke="currentColor" stroke-width="2"/></svg>2026 = Jan–Sep only</span>
+      <span>Click a line’s name to focus it</span>
+    </div>
+  </div>
+
+  <div class="cols">
+    <section class="panel">
+      <h2>What the chart shows</h2>
+      <ol class="find">
+        <li><b>The console’s age matters more than any single game.</b> Almost every line climbs for three to five years and then falls, whatever is released. Switch to “Years since launch” and the arcs line up. Late hits like The Last of Us (PS3, 2013) and Ghost of Tsushima (PS4, 2020) landed on consoles already in decline.</li>
+        <li><b>The best-selling consoles had hits early and kept them coming.</b> Wii Sports, Wii Fit and Mario Kart Wii arrived in the Wii’s first 18 months, and the Wii peaked at 24.8M in 2008. Breath of the Wild, Mario Kart 8 Deluxe and Odyssey all came in the Switch’s first year, and its sales grew every year through 2020.</li>
+        <li><b>Big games did not rescue weak consoles.</b> Super Mario 3D World, Mario Kart 8 and Splatoon were Wii U highlights, yet it never passed 3.4M a year. Uncharted: Golden Abyss didn’t lift the Vita either.</li>
+        <li><b>Misses didn’t sink healthy consoles.</b> Xbox One sales rose in 2015 and 2016, the years of Halo 5 and Quantum Break, and PS5 kept selling about 20M a year when Concord flopped in 2024.</li>
+        <li><b>Other factors often explain the spikes.</b> The Switch’s 27.4M peak in 2020 came with Animal Crossing and pandemic lockdowns at the same time. PS5 and Series X|S were short of stock until 2022, so their early years show supply, not demand.</li>
+      </ol>
+      <p class="verdict"><b>Verdict:</b> the data fits exclusives as a <b>steady pipeline that builds a console early</b>, not as one-off sales spikes. No single game visibly changes a console’s path, but every console that sold well had several strong exclusives in its first two years. Yearly totals can show the pattern; they can’t prove cause.</p>
+    </section>
+    <section class="panel notes">
+      <h2>About the data</h2>
+      <p><b>Calendar years, worldwide units.</b> 2026 covers January to September only (hollow square end points), so its drop is partly the short year.</p>
+      <p><b>Company-reported (solid lines):</b> Wii, Wii U, DS and GameCube from Nintendo’s quarterly shipments; Switch from Nintendo’s figures (2017–23 compiled by analyst Paul Gale); Switch 2 from Nintendo’s figures; PS4 and PS5 from Sony’s quarterly sell-in, regrouped from fiscal quarters into calendar years.</p>
+      <p><b>Estimates (dashed lines):</b> Xbox 360, Xbox One, Series X|S, PS3, PSP, PS Vita and 3DS come from VGChartz yearly estimates, because Microsoft and Sony don’t publish yearly figures for them. Their totals land within a few million of official lifetime figures (e.g. PS3 87.4M, 3DS 75.9M).</p>
+      <p><b>Not shown:</b> PS2, original Xbox, Game Boy Advance and GameCube before 2005, because there is no consistent yearly data for them. Game numbers in the tooltips are lifetime figures from the Console Wars poster; misses show no number.</p>
+      <p><b>Sources (opened and checked):</b></p>
+      <ul>
+        <li><a href="https://sonyinteractive.com/en/corporate/data.html" target="_blank" rel="noopener">Sony Interactive: business data and sales</a></li>
+        <li><a href="https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" target="_blank" rel="noopener">Nintendo IR: dedicated video game sales units</a></li>
+        <li><a href="https://vgsales.fandom.com/wiki/Wii" target="_blank" rel="noopener">Video Game Sales Wiki: Wii</a>, <a href="https://vgsales.fandom.com/wiki/Wii_U" target="_blank" rel="noopener">Wii U</a>, <a href="https://vgsales.fandom.com/wiki/Nintendo_GameCube" target="_blank" rel="noopener">GameCube</a> (Nintendo quarterly tables)</li>
+        <li><a href="https://en.wikipedia.org/wiki/Nintendo_DS_sales" target="_blank" rel="noopener">Wikipedia: Nintendo DS sales</a></li>
+        <li><a href="https://www.theouterhaven.net/nintendo-switch-sales-year-by-year-revealed" target="_blank" rel="noopener">The Outerhaven: Switch sales year by year</a></li>
+        <li><a href="https://gematsu.com/2025/02/switch-worldwide-sales-top-150-86-million-super-mario-party-jamboree-tops-6-17-million" target="_blank" rel="noopener">Gematsu: Switch 150.86M (Dec 2024)</a>, <a href="https://www.gematsu.com/2026/02/switch-2-worldwide-sales-top-17-37-million-switch-tops-155-37-million" target="_blank" rel="noopener">Switch 2 17.37M, Switch 155.37M (Dec 2025)</a></li>
+        <li><a href="https://www.vgchartz.com/tools/hw_date.php?reg=Global&amp;ending=Yearly" target="_blank" rel="noopener">VGChartz: yearly hardware comparisons</a></li>
+      </ul>
+      <p class="dl"><a href="yearly-hardware-data_v1.csv">Download the yearly data (CSV)</a></p>
+      <p>Prepared Nov. 15, 2026.</p>
+    </section>
+  </div>
+</div>
+
+<script>
+const DATA = {"series": [{"id": "wii", "name": "Wii", "co": "Nintendo", "type": "home", "launch": "2006-11-19", "data": {"2006": 3.19, "2007": 16.95, "2008": 24.82, "2009": 22.49, "2010": 17.19, "2011": 10.33, "2012": 4.41, "2013": 1.52, "2014": 0.54, "2015": 0.19}, "src": "Nintendo quarterly shipments via Video Game Sales Wiki", "official": true}, {"id": "wiiu", "name": "Wii U", "co": "Nintendo", "type": "home", "launch": "2012-11-18", "data": {"2012": 3.06, "2013": 2.8, "2014": 3.34, "2015": 3.4, "2016": 0.96}, "src": "Nintendo quarterly shipments via Video Game Sales Wiki", "official": true}, {"id": "gc", "name": "GameCube", "co": "Nintendo", "type": "home", "launch": "2001-09-14", "data": {"2005": 2.58, "2006": 0.91, "2007": 0.2}, "src": "Nintendo quarterly shipments via Video Game Sales Wiki", "official": true}, {"id": "ds", "name": "Nintendo DS", "co": "Nintendo", "type": "hand", "launch": "2004-11-21", "data": {"2005": 11.59, "2006": 21.18, "2007": 29.18, "2008": 31.43, "2009": 28.91, "2010": 19.46, "2011": 6.47, "2012": 2.61, "2013": 0.31, "2014": 0.04}, "src": "Nintendo shipments via Wikipedia (Nintendo DS sales)", "official": true}, {"id": "switch", "name": "Switch", "co": "Nintendo", "type": "home", "launch": "2017-03-03", "data": {"2017": 14.87, "2018": 17.41, "2019": 20.2, "2020": 27.39, "2021": 23.67, "2022": 19.01, "2023": 16.81, "2024": 11.5, "2025": 4.51, "2026": 1.83}, "src": "Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)", "official": true}, {"id": "switch2", "name": "Switch 2", "co": "Nintendo", "type": "home", "launch": "2025-06-05", "data": {"2025": 17.37, "2026": 8.98}, "src": "Nintendo shipments (Gematsu, Nintendo IR)", "official": true}, {"id": "3ds", "name": "Nintendo 3DS", "co": "Nintendo", "type": "hand", "launch": "2011-02-26", "data": {"2011": 12.55, "2012": 13.41, "2013": 13.65, "2014": 8.88, "2015": 7.57, "2016": 7.72, "2017": 6.48, "2018": 3.59, "2019": 1.56, "2020": 0.49, "2021": 0.03}, "src": "VGChartz yearly estimate", "official": false}, {"id": "ps4", "name": "PlayStation 4", "co": "PlayStation", "type": "home", "launch": "2013-11-15", "data": {"2013": 4.5, "2014": 15.7, "2015": 17.6, "2016": 19.5, "2017": 19.4, "2018": 17.7, "2019": 14.6, "2020": 6.2, "2021": 1.9, "2022": 0.1}, "src": "Sony Interactive quarterly sell-in, regrouped into calendar years", "official": true}, {"id": "ps5", "name": "PlayStation 5", "co": "PlayStation", "type": "home", "launch": "2020-11-12", "data": {"2020": 4.5, "2021": 12.8, "2022": 14.8, "2023": 22.7, "2024": 20.2, "2025": 17.2, "2026": 5.7}, "src": "Sony Interactive quarterly sell-in, regrouped into calendar years", "official": true}, {"id": "ps3", "name": "PlayStation 3", "co": "PlayStation", "type": "home", "launch": "2006-11-11", "data": {"2006": 1.25, "2007": 7.92, "2008": 10.51, "2009": 13.29, "2010": 13.82, "2011": 14.66, "2012": 11.99, "2013": 8.2, "2014": 3.39, "2015": 1.53, "2016": 0.63, "2017": 0.19}, "src": "VGChartz yearly estimate", "official": false}, {"id": "psp", "name": "PSP", "co": "PlayStation", "type": "hand", "launch": "2004-12-12", "data": {"2005": 9.61, "2006": 9.52, "2007": 12.84, "2008": 14.07, "2009": 9.92, "2010": 9.15, "2011": 7.52, "2012": 4.24, "2013": 3.12, "2014": 1.36, "2015": 0.52, "2016": 0.18}, "src": "VGChartz yearly estimate", "official": false}, {"id": "vita", "name": "PS Vita", "co": "PlayStation", "type": "hand", "launch": "2011-12-17", "data": {"2011": 0.46, "2012": 3.21, "2013": 2.92, "2014": 2.63, "2015": 1.82, "2016": 1.43, "2017": 0.53, "2018": 0.12, "2019": 0.01}, "src": "VGChartz yearly estimate", "official": false}, {"id": "x360", "name": "Xbox 360", "co": "Xbox", "type": "home", "launch": "2005-11-22", "data": {"2005": 1.18, "2006": 6.81, "2007": 7.91, "2008": 11.16, "2009": 10.62, "2010": 13.97, "2011": 14.14, "2012": 10.85, "2013": 6.28, "2014": 2.01, "2015": 0.55, "2016": 0.25, "2017": 0.03}, "src": "VGChartz yearly estimate", "official": false}, {"id": "xone", "name": "Xbox One", "co": "Xbox", "type": "home", "launch": "2013-11-22", "data": {"2013": 3.07, "2014": 7.59, "2015": 9.0, "2016": 9.61, "2017": 9.1, "2018": 8.76, "2019": 6.54, "2020": 4.13, "2021": 0.15, "2022": 0.01}, "src": "VGChartz yearly estimate", "official": false}, {"id": "xs", "name": "Xbox Series X|S", "co": "Xbox", "type": "home", "launch": "2020-11-10", "data": {"2020": 2.95, "2021": 7.77, "2022": 8.69, "2023": 7.5, "2024": 4.86, "2025": 2.67, "2026": 1.23}, "src": "VGChartz yearly estimate", "official": false}], "games": [{"title": "Gears of War", "date": "2006-11-07", "console": "x360", "kind": "hit", "fig": "5M+", "note": ""}, {"title": "Halo 3", "date": "2007-09-25", "console": "x360", "kind": "hit", "fig": "14.5M", "note": ""}, {"title": "Gears of War 2", "date": "2008-11-07", "console": "x360", "kind": "hit", "fig": "5M+", "note": ""}, {"title": "Halo: Reach", "date": "2010-09-14", "console": "x360", "kind": "hit", "fig": "≈9.5M", "note": ""}, {"title": "Kinect Adventures!", "date": "2010-11-04", "console": "x360", "kind": "hit", "fig": "24M", "note": "Bundled with the Kinect sensor"}, {"title": "Halo 4", "date": "2012-11-06", "console": "x360", "kind": "hit", "fig": "≈8.9M", "note": ""}, {"title": "Halo 5: Guardians", "date": "2015-10-27", "console": "xone", "kind": "miss", "fig": "", "note": "Flagship Halo release; Xbox One stayed well behind PS4"}, {"title": "Quantum Break", "date": "2016-04-05", "console": "xone", "kind": "miss", "fig": "", "note": "New exclusive series; no sequel followed"}, {"title": "Forza Horizon 4", "date": "2018-10-02", "console": "xone", "kind": "hit", "fig": "24M players", "note": "Also on PC and Game Pass"}, {"title": "Crackdown 3", "date": "2019-02-15", "console": "xone", "kind": "miss", "fig": "", "note": "Delayed repeatedly; poorly reviewed"}, {"title": "Forza Horizon 5", "date": "2021-11-09", "console": "xs", "kind": "hit", "fig": "55M+ players", "note": "On PS5 since 2025"}, {"title": "Halo Infinite", "date": "2021-12-08", "console": "xs", "kind": "miss", "fig": "", "note": "Campaign delayed a year; multiplayer free-to-play"}, {"title": "Redfall", "date": "2023-05-02", "console": "xs", "kind": "miss", "fig": "", "note": "Poorly reviewed; studio closed in 2024"}, {"title": "Starfield", "date": "2023-09-06", "console": "xs", "kind": "hit", "fig": "14M players", "note": "On PS5 since 2026"}, {"title": "Gran Turismo 5", "date": "2010-11-24", "console": "ps3", "kind": "hit", "fig": "11.95M", "note": ""}, {"title": "The Last of Us", "date": "2013-06-14", "console": "ps3", "kind": "hit", "fig": "20M+ all versions", "note": ""}, {"title": "The Order: 1886", "date": "2015-02-20", "console": "ps4", "kind": "miss", "fig": "", "note": "Mixed reviews; no sequel"}, {"title": "Uncharted 4", "date": "2016-05-10", "console": "ps4", "kind": "hit", "fig": "16.2M", "note": ""}, {"title": "Horizon Zero Dawn", "date": "2017-02-28", "console": "ps4", "kind": "hit", "fig": "20M incl. PC", "note": ""}, {"title": "God of War", "date": "2018-04-20", "console": "ps4", "kind": "hit", "fig": "23M incl. PC", "note": ""}, {"title": "Marvel's Spider-Man", "date": "2018-09-07", "console": "ps4", "kind": "hit", "fig": "20M+", "note": ""}, {"title": "The Last of Us Part II", "date": "2020-06-19", "console": "ps4", "kind": "hit", "fig": "10M+", "note": ""}, {"title": "Ghost of Tsushima", "date": "2020-07-17", "console": "ps4", "kind": "hit", "fig": "13M incl. PC", "note": ""}, {"title": "God of War Ragnarök", "date": "2022-11-09", "console": "ps5", "kind": "hit", "fig": "15M incl. PC", "note": "Also on PS4"}, {"title": "Marvel's Spider-Man 2", "date": "2023-10-20", "console": "ps5", "kind": "hit", "fig": "10M+", "note": ""}, {"title": "Concord", "date": "2024-08-23", "console": "ps5", "kind": "miss", "fig": "", "note": "Taken offline two weeks after launch; buyers refunded"}, {"title": "Ghost of Yōtei", "date": "2025-10-02", "console": "ps5", "kind": "hit", "fig": "3.3M first month", "note": ""}, {"title": "Marvel's Wolverine", "date": "2026-09-15", "console": "ps5", "kind": "hit", "fig": "2.4M in 50 days", "note": ""}, {"title": "Uncharted: Golden Abyss", "date": "2011-12-17", "console": "vita", "kind": "miss", "fig": "", "note": "Vita launch title; Vita never took off"}, {"title": "Wii Sports", "date": "2006-11-19", "console": "wii", "kind": "hit", "fig": "82.9M", "note": "Bundled with the Wii"}, {"title": "Super Mario Galaxy", "date": "2007-11-01", "console": "wii", "kind": "hit", "fig": "12.8M", "note": ""}, {"title": "Wii Fit", "date": "2007-12-01", "console": "wii", "kind": "hit", "fig": "22.7M", "note": ""}, {"title": "Mario Kart Wii", "date": "2008-04-10", "console": "wii", "kind": "hit", "fig": "37.4M", "note": ""}, {"title": "Wii Music", "date": "2008-10-16", "console": "wii", "kind": "miss", "fig": "", "note": "Poorly received follow-up to Wii Sports"}, {"title": "New Super Mario Bros. Wii", "date": "2009-11-12", "console": "wii", "kind": "hit", "fig": "30.3M", "note": ""}, {"title": "Super Mario 3D World", "date": "2013-11-21", "console": "wiiu", "kind": "miss", "fig": "", "note": "Acclaimed, but Wii U sales stayed low"}, {"title": "Mario Kart 8", "date": "2014-05-29", "console": "wiiu", "kind": "miss", "fig": "", "note": "Wii U's best seller, but the console stayed low"}, {"title": "Splatoon", "date": "2015-05-28", "console": "wiiu", "kind": "miss", "fig": "", "note": "New hit series, but no lift for Wii U"}, {"title": "Zelda: Breath of the Wild", "date": "2017-03-03", "console": "switch", "kind": "hit", "fig": "34.3M", "note": "Switch launch title"}, {"title": "Mario Kart 8 Deluxe", "date": "2017-04-28", "console": "switch", "kind": "hit", "fig": "72.0M", "note": ""}, {"title": "Super Mario Odyssey", "date": "2017-10-27", "console": "switch", "kind": "hit", "fig": "31.1M", "note": ""}, {"title": "Nintendo Labo", "date": "2018-04-20", "console": "switch", "kind": "miss", "fig": "", "note": "Cardboard kits; sold far below Nintendo's hopes"}, {"title": "Super Smash Bros. Ultimate", "date": "2018-12-07", "console": "switch", "kind": "hit", "fig": "38.5M", "note": ""}, {"title": "Animal Crossing: New Horizons", "date": "2020-03-20", "console": "switch", "kind": "hit", "fig": "50.6M", "note": "Released as pandemic lockdowns began"}, {"title": "Zelda: Tears of the Kingdom", "date": "2023-05-12", "console": "switch", "kind": "hit", "fig": "22.9M", "note": ""}, {"title": "Mario Kart World", "date": "2025-06-05", "console": "switch2", "kind": "hit", "fig": "16.5M", "note": "Switch 2 launch title"}], "context": [{"date": "2007-06-01", "label": "Wii shortages 2007–08", "console": "wii"}, {"date": "2011-08-12", "label": "3DS price cut ($249 to $169)", "console": "3ds"}, {"date": "2019-09-20", "label": "Switch Lite launches", "console": "switch"}, {"date": "2020-03-15", "label": "Pandemic lockdowns begin", "console": null}, {"date": "2020-11-12", "label": "PS5 / Series X|S shortages to 2022", "console": null}, {"date": "2024-02-15", "label": "Xbox games start coming to PS5", "console": null}]};
+const COLOR = { Xbox: 'var(--xbox)', PlayStation: 'var(--ps)', Nintendo: 'var(--nin)' };
+const state = { co: new Set(['Xbox', 'PlayStation', 'Nintendo']), type: new Set(['home', 'hand']), kind: new Set(['hit', 'miss']), ctx: true, view: 'cal', focus: null };
+try { const v = localStorage.getItem('dxsc-view'); if (v === 'age' || v === 'cal') state.view = v; } catch (e) {}
+
+const svg = document.getElementById('chart');
+const tip = document.getElementById('tip');
+const NS = 'http://www.w3.org/2000/svg';
+const W = 1200, H = 600, M = { l: 58, r: 40, t: 86, b: 46 };
+const dec = s => { const d = new Date(s + 'T00:00:00Z'); const y = d.getUTCFullYear(); return y + (d - Date.UTC(y, 0, 1)) / (Date.UTC(y + 1, 0, 1) - Date.UTC(y, 0, 1)); };
+const SER = Object.fromEntries(DATA.series.map(s => [s.id, s]));
+DATA.series.forEach(s => { s.L = dec(s.launch); s.pts = Object.entries(s.data).map(([y, v]) => ({ y: +y, v, partial: +y === 2026, m: (+y === Math.floor(s.L) ? (s.L + +y + 1) / 2 : +y === 2026 ? 2026.375 : +y + 0.5) })).sort((a, b) => a.y - b.y); });
+const el = (tag, attrs = {}, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
+const fmt = v => (v == null ? '—' : v < 1 ? v.toFixed(2) + 'M' : v.toFixed(1) + 'M');
+
+function xOf(s, yearMid) { return state.view === 'cal' ? yearMid : yearMid - s.L; }
+function visible(s) { return state.co.has(s.co) && state.type.has(s.type); }
+function interp(s, x) {
+  const P = s.pts.map(p => [xOf(s, p.m), p.v]);
+  if (x <= P[0][0]) return P[0][1];
+  for (let i = 1; i < P.length; i++) if (x <= P[i][0]) { const [x0, y0] = P[i - 1], [x1, y1] = P[i]; return y0 + (y1 - y0) * (x - x0) / (x1 - x0); }
+  return P[P.length - 1][1];
+}
+
+function draw() {
+  svg.textContent = '';
+  tip.hidden = true;
+  const vis = DATA.series.filter(visible);
+  const xr = state.view === 'cal' ? [2005, 2027] : [-0.5, 15];
+  const ymax = Math.max(10, ...vis.flatMap(s => s.pts.map(p => p.v)));
+  const ytop = Math.ceil(ymax / 5) * 5;
+  const X = x => M.l + (x - xr[0]) / (xr[1] - xr[0]) * (W - M.l - M.r);
+  const Y = v => H - M.b - v / ytop * (H - M.t - M.b);
+  const ax = el('g', { class: 'axis' }, svg);
+  for (let v = 0; v <= ytop; v += 5) {
+    el('line', { x1: M.l, x2: W - M.r, y1: Y(v), y2: Y(v), class: v === 0 ? 'zero' : 'gridline' }, ax);
+    const t = el('text', { x: M.l - 10, y: Y(v) + 4, 'text-anchor': 'end' }, ax); t.textContent = v + 'M';
+  }
+  const t0 = el('text', { x: 6, y: Y(ytop) - 12, 'text-anchor': 'start' }, ax); t0.textContent = 'units sold / year';
+  if (state.view === 'cal') {
+    for (let y = 2005; y <= 2026; y++) {
+      el('line', { x1: X(y), x2: X(y), y1: Y(0), y2: Y(0) + 5, class: 'zero' }, ax);
+      if (y % 2 === 1 || y === 2026) { const t = el('text', { x: X(y + 0.5), y: H - M.b + 20, 'text-anchor': 'middle' }, ax); t.textContent = y; }
+    }
+  } else {
+    for (let a = 0; a <= 14; a++) { el('line', { x1: X(a), x2: X(a), y1: Y(0), y2: Y(0) + 5, class: 'zero' }, ax);
+      if (a % 2 === 0) { const t = el('text', { x: X(a), y: H - M.b + 20, 'text-anchor': 'middle' }, ax); t.textContent = a === 0 ? 'launch' : 'year ' + a; } }
+  }
+
+  // context
+  if (state.ctx && state.view === 'cal') {
+    const cg = el('g', { class: 'ctx' }, svg);
+    const rows = [];
+    DATA.context.forEach(c => {
+      if (c.console && !visible(SER[c.console])) return;
+      const x = X(dec(c.date)), w = c.label.length * 5.9 + 10;
+      const right = x + w > W - 8;
+      const span = right ? [x - w, x] : [x, x + w];
+      let r = 0; while (rows[r] && rows[r].some(o => !(span[1] < o[0] || span[0] > o[1]))) r++;
+      (rows[r] = rows[r] || []).push(span);
+      const yy = 14 + r * 14;
+      el('line', { x1: x, x2: x, y1: yy + 3, y2: Y(0) }, cg);
+      const t = el('text', { x: right ? x - 4 : x + 4, y: yy, 'text-anchor': right ? 'end' : 'start' }, cg); t.textContent = c.label;
+    });
+  }
+
+  // series
+  const labels = [];
+  vis.forEach(s => {
+    const g = el('g', { class: 'series' + (s.official ? '' : ' est') + (state.focus && state.focus !== s.id ? ' dim' : ''), 'data-id': s.id }, svg);
+    const pts = s.pts.map(p => [X(xOf(s, p.m)), Y(p.v), p]);
+    el('path', { d: pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(''), stroke: COLOR[s.co] }, g);
+    pts.forEach(([x, y, p]) => { if (p.partial) el('rect', { x: x - 4, y: y - 4, width: 8, height: 8, class: 'pt partial', style: 'stroke:' + COLOR[s.co] }, g); else el('circle', { cx: x, cy: y, r: 3.2, class: 'pt', fill: COLOR[s.co] }, g); });
+    const peak = pts.reduce((a, b) => (b[1] < a[1] ? b : a));
+    labels.push({ s, g, x: peak[0], y: peak[1] - 12 });
+  });
+  // place labels at peaks, nudge to avoid overlap
+  labels.sort((a, b) => a.y - b.y);
+  const placed = [];
+  labels.forEach(L => {
+    const w = L.s.name.length * 7.2 + 8;
+    let y = L.y;
+    for (let k = 0; k < 12; k++) { const hit = placed.find(p => Math.abs(p.x - L.x) < (p.w + w) / 2 && Math.abs(p.y - y) < 15); if (!hit) break; y = hit.y - 16; }
+    if (y < M.t + 4) y = L.y + 26;
+    L.x = Math.min(Math.max(L.x, M.l + w / 2), W - M.r - w / 2);
+    placed.push({ x: L.x, y, w });
+    const t = el('text', { x: L.x, y, 'text-anchor': 'middle', class: 'lbl', fill: COLOR[L.s.co], tabindex: 0, role: 'button', 'aria-label': 'Focus ' + L.s.name, style: 'cursor:pointer' }, L.g);
+    t.textContent = L.s.name;
+    const toggle = () => { state.focus = state.focus === L.s.id ? null : L.s.id; draw(); };
+    t.addEventListener('click', toggle); t.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
+  });
+
+  // games
+  const gg = el('g', {}, svg);
+  DATA.games.forEach(gm => {
+    const s = SER[gm.console];
+    if (!visible(s) || !state.kind.has(gm.kind)) return;
+    const x = Math.max(xOf(s, dec(gm.date)), xOf(s, s.pts[0].m));
+    const cx = X(x), cy = Y(interp(s, x));
+    const g = el('g', { class: 'game' + (state.focus && state.focus !== s.id ? ' dim' : ''), tabindex: 0, role: 'button', 'aria-label': gm.title + ', ' + gm.kind }, gg);
+    if (gm.kind === 'hit') el('circle', { cx, cy, r: 6.5, class: 'hit', fill: COLOR[s.co] }, g);
+    else el('circle', { cx, cy, r: 5.5, class: 'miss', stroke: COLOR[s.co] }, g);
+    const show = () => showTip(gm, s, cx, cy);
+    g.addEventListener('pointerenter', show); g.addEventListener('focus', show);
+    g.addEventListener('click', show);
+    g.addEventListener('pointerleave', () => { tip.hidden = true; }); g.addEventListener('blur', () => { tip.hidden = true; });
+  });
+}
+
+function showTip(gm, s, cx, cy) {
+  const y = +gm.date.slice(0, 4);
+  const yrs = [y - 1, y, y + 1].map(k => ({ k, v: s.data[String(k)] }));
+  const max = Math.max(...yrs.map(o => o.v || 0), 1);
+  const d = new Date(gm.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+  tip.innerHTML = '';
+  const add = (cls, txt) => { const n = document.createElement('div'); n.className = cls; n.textContent = txt; tip.appendChild(n); return n; };
+  add('t', gm.title);
+  add('m', (gm.kind === 'hit' ? 'HIT' : 'NOTABLE MISS') + ' · ' + s.name + ' · ' + d);
+  if (gm.fig) add('', 'Game sales: ' + gm.fig);
+  if (gm.note) add('', gm.note);
+  const cap = add('m', s.name + ' sales by year' + (s.official ? '' : ' (est.)'));
+  cap.style.marginTop = '8px';
+  const bars = document.createElement('div'); bars.className = 'bars'; bars.style.color = getComputedStyle(document.documentElement).getPropertyValue(s.co === 'Xbox' ? '--xbox' : s.co === 'PlayStation' ? '--ps' : '--nin');
+  yrs.forEach(o => { const b = document.createElement('div'); b.className = 'bar' + (o.k === y ? ' on' : ''); const i = document.createElement('i'); i.style.height = (o.v ? Math.max(3, o.v / max * 46) : 0) + 'px'; const v = document.createElement('span'); v.textContent = fmt(o.v); v.style.color = 'var(--ink)'; const k = document.createElement('span'); k.textContent = o.k + (o.k === 2026 ? '*' : ''); k.style.color = 'var(--muted)'; k.style.opacity = '.7'; b.append(v, i, k); bars.appendChild(b); });
+  tip.appendChild(bars);
+  if (yrs.some(o => o.k === 2026)) add('m', '* Jan–Sep 2026 only');
+  tip.hidden = false;
+  const box = svg.getBoundingClientRect(), host = tip.parentElement.getBoundingClientRect(), sc = box.width / W;
+  let left = box.left - host.left + cx * sc + 14, top = box.top - host.top + cy * sc - 20;
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  if (left + tw > host.width - 8) left = box.left - host.left + cx * sc - tw - 14;
+  if (left < 8) left = 8;
+  if (top + th > host.height - 8) top = host.height - th - 8;
+  if (top < 8) top = 8;
+  tip.style.left = left + 'px'; tip.style.top = top + 'px';
+}
+
+function bind(sel, setName, attr) {
+  document.querySelectorAll(sel).forEach(b => b.addEventListener('click', () => {
+    const key = b.dataset[attr], set = state[setName];
+    if (set.has(key)) { if (set.size > 1) set.delete(key); } else set.add(key);
+    document.querySelectorAll(sel).forEach(o => o.setAttribute('aria-pressed', state[setName].has(o.dataset[attr])));
+    state.focus = null; draw();
+  }));
+}
+bind('[data-co]', 'co', 'co'); bind('[data-type]', 'type', 'type'); bind('[data-kind]', 'kind', 'kind');
+document.getElementById('f-ctx').addEventListener('click', e => { state.ctx = !state.ctx; e.currentTarget.setAttribute('aria-pressed', state.ctx); draw(); });
+document.querySelectorAll('[data-view]').forEach(b => b.addEventListener('click', () => {
+  state.view = b.dataset.view; try { localStorage.setItem('dxsc-view', state.view); } catch (e) {}
+  document.querySelectorAll('[data-view]').forEach(o => o.setAttribute('aria-pressed', o.dataset.view === state.view));
+  document.getElementById('f-ctx').disabled = state.view !== 'cal';
+  draw();
+}));
+document.querySelectorAll('[data-view]').forEach(o => o.setAttribute('aria-pressed', o.dataset.view === state.view));
+svg.addEventListener('click', e => { if (e.target === svg) tip.hidden = true; });
+draw();
+</script>
+</body>
+</html>

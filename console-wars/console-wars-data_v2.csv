@@ -1,0 +1,58 @@
+Company,Type,Name,Date (launch/release),End of production,Value,Metric,Confidence,Note / source basis
+Xbox,Home console,Xbox,2001-11-15,2006-04 (approx.),24.0,Lifetime units (M),firm,Company-reported lifetime units
+Xbox,Home console,Xbox 360,2005-11-22,2016-04,84.0,Lifetime units (M),firm,Company-reported lifetime units
+Xbox,Home console,Xbox One,2013-11-22,2020-12,58.0,Lifetime units (M),est,Estimate; company no longer reports units
+Xbox,Home console,Xbox Series X|S,2020-11-10,present,34.0,Lifetime units (M),est,Estimate; company no longer reports units
+Xbox,Game,Halo: Combat Evolved,2001-11-15,,5M+ · PS5 remake 2026,Units sold,approx,Microsoft milestone (>5M by Nov 2005); remake Halo: Campaign Evolved on PS5 2026
+Xbox,Game,Halo 2,2004-11-09,,8.5M,Units sold,approx,Wikipedia best-selling Xbox list (8.46M)
+Xbox,Game,Gears of War,2006-11-07,,5M+ · PS5 remaster 2025,Units sold,approx,"Open game-sales data; Gears of War: Reloaded on PS5 Aug 26, 2025 (ComicBook.com)"
+Xbox,Game,Halo 3,2007-09-25,,14.5M,Units sold,approx,Halo Waypoint / VGSales wiki (14.5M)
+Xbox,Game,Gears of War 2,2008-11-07,,5M+,Units sold,approx,"GameDaily, May 2009 (5M)"
+Xbox,Game,Halo: Reach,2010-09-14,,≈9.5M,Units sold,est,Halo franchise report via Trusted Reviews (9.52M); other sources 9.87M
+Xbox,Game,Kinect Adventures!,2010-11-04,,24M · bundled,Units sold,firm,"Microsoft, Feb 2013 (24M Kinect sensors, each bundled with the game)"
+Xbox,Game,Halo 4,2012-11-06,,≈8.9M,Units sold,est,Halo franchise report via Trusted Reviews (8.94M)
+Xbox,Game,Forza Horizon 4,2018-10-02,,24M players,Players,firm,"Microsoft, Nov 2020 (24M players)"
+Xbox,Game,Forza Horizon 5,2021-11-09,,55M+ players · on PS5 2025,Players,approx,"Xbox player tracker, Jan 2026; PS5 release Apr 29, 2025 (ComicBook.com)"
+Xbox,Game,Starfield,2023-09-06,,14M players · on PS5 2026,Players,approx,"Xbox, June 2024 (14M players); PS5 release Apr 7, 2026 (Gematsu)"
+PlayStation,Home console,PlayStation 2,2000-03-04,2013-01,160.0,Lifetime units (M),firm,Company-reported lifetime units
+PlayStation,Home console,PlayStation 3,2006-11-11,2017-05,87.4,Lifetime units (M),firm,Company-reported lifetime units
+PlayStation,Home console,PlayStation 4,2013-11-15,2024-01 (approx.),117.2,Lifetime units (M),firm,Company-reported lifetime units
+PlayStation,Home console,PlayStation 5,2020-11-12,present,97.9,Lifetime units (M),firm,Company-reported lifetime units
+PlayStation,Handheld,PSP,2004-12-12,2014-12,80.0,Lifetime units (M),est,Estimate; company no longer reports units
+PlayStation,Handheld,PS Vita,2011-12-17,2019-03,15.0,Lifetime units (M),est,Estimate; company no longer reports units
+PlayStation,Game,Gran Turismo 3: A-Spec,2001-04-28,,14.9M,Units sold,firm,Wikipedia best-selling PS2 list (14.89M)
+PlayStation,Game,Jak and Daxter: The Precursor Legacy,2001-12-03,,4.2M,Units sold,firm,Wikipedia best-selling PS2 list (4.2M)
+PlayStation,Game,Ratchet & Clank (2002),2002-11-04,,3.7M,Units sold,firm,Wikipedia best-selling PS2 list (3.71M)
+PlayStation,Game,Gran Turismo 4,2004-12-28,,11.8M,Units sold,firm,Wikipedia best-selling PS2 list (11.76M)
+PlayStation,Game,God of War (2005),2005-03-22,,4.6M,Units sold,firm,Wikipedia best-selling PS2 list (4.62M)
+PlayStation,Game,"The Last of Us (PS3, Remastered, Part I)",2013-06-14,,20M+ all versions,Units sold,approx,Sony milestone reports (>20M across versions)
+PlayStation,Game,Uncharted 4: A Thief's End,2016-05-10,,16.2M,Units sold,firm,"Sony, May 2019 (16.2M)"
+PlayStation,Game,Horizon Zero Dawn (incl. PC),2017-02-28,,20M incl. PC,Units sold,firm,"Sony Q1 FY2026 results, Jul 2026 (20M)"
+PlayStation,Game,"God of War (2018, incl. PC)",2018-04-20,,23M incl. PC,Units sold,firm,"Sony Q1 FY2026 results, Jul 2026 (23M)"
+PlayStation,Game,Marvel's Spider-Man (PS4),2018-09-07,,20M+,Units sold,firm,"Sony, Nov 2020 (20M+ on PS4)"
+PlayStation,Game,The Last of Us Part II,2020-06-19,,10M+,Units sold,approx,"Sony-cited milestone, Dec 2022 (10M+)"
+PlayStation,Game,Ghost of Tsushima (incl. PC),2020-07-17,,13M incl. PC,Units sold,firm,"Sony Q1 FY2026 results, Jul 2026 (13M)"
+PlayStation,Game,God of War Ragnarök (incl. PC),2022-11-09,,15M incl. PC,Units sold,firm,"Sony Q1 FY2026 results, Jul 2026 (15M)"
+PlayStation,Game,Marvel's Spider-Man 2,2023-10-20,,10M+,Units sold,approx,"Insomniac Games, early 2024 (10M+ in four months)"
+PlayStation,Game,Marvel's Wolverine,2026-09-15,,2.4M in 50 days,Units sold,firm,"Sony Q2 FY2026 results (2.4M as of Nov 4, 2026)"
+Nintendo,Home console,GameCube,2001-09-14,2007-02 (approx.),21.74,Lifetime units (M),firm,Company-reported lifetime units
+Nintendo,Home console,Wii,2006-11-19,2013-11,101.63,Lifetime units (M),firm,Company-reported lifetime units
+Nintendo,Home console,Wii U,2012-11-18,2017-01,13.56,Lifetime units (M),firm,Company-reported lifetime units
+Nintendo,Home console,Switch,2017-03-03,present,157.2,Lifetime units (M),firm,Company-reported lifetime units
+Nintendo,Home console,Switch 2,2025-06-05,present,26.35,Lifetime units (M),firm,Company-reported lifetime units
+Nintendo,Handheld,Game Boy Advance,2001-03-21,2008-06 (approx.),81.51,Lifetime units (M),firm,Company-reported lifetime units
+Nintendo,Handheld,Nintendo DS,2004-11-21,2014-01 (approx.),154.02,Lifetime units (M),firm,Company-reported lifetime units
+Nintendo,Handheld,Nintendo 3DS,2011-02-26,2020-09,75.94,Lifetime units (M),firm,Company-reported lifetime units
+Nintendo,Game,Super Smash Bros. Melee,2001-11-21,,7.4M,Units sold,firm,Nintendo sales data (7.41M)
+Nintendo,Game,Wii Sports,2006-11-19,,82.9M · bundled,Units sold,firm,"Nintendo IR top-selling titles (82.90M, bundled with Wii)"
+Nintendo,Game,Super Mario Galaxy,2007-11-01,,12.8M,Units sold,firm,Nintendo IR top-selling titles (12.80M)
+Nintendo,Game,Wii Fit,2007-12-01,,22.7M,Units sold,firm,Nintendo IR top-selling titles (22.67M)
+Nintendo,Game,Mario Kart Wii,2008-04-10,,37.4M,Units sold,firm,Nintendo IR top-selling titles (37.38M)
+Nintendo,Game,New Super Mario Bros. Wii,2009-11-12,,30.3M,Units sold,firm,Nintendo IR top-selling titles (30.32M)
+Nintendo,Game,The Legend of Zelda: Breath of the Wild (Switch),2017-03-03,,34.3M,Units sold,firm,"Nintendo IR as of Sep 30, 2026 (34.28M)"
+Nintendo,Game,Mario Kart 8 Deluxe,2017-04-28,,72.0M,Units sold,firm,"Nintendo IR as of Sep 30, 2026 (72.00M)"
+Nintendo,Game,Super Mario Odyssey,2017-10-27,,31.1M,Units sold,firm,"Nintendo IR as of Sep 30, 2026 (31.06M)"
+Nintendo,Game,Super Smash Bros. Ultimate,2018-12-07,,38.5M,Units sold,firm,"Nintendo IR as of Sep 30, 2026 (38.50M)"
+Nintendo,Game,Animal Crossing: New Horizons,2020-03-20,,50.6M,Units sold,firm,"Nintendo IR as of Sep 30, 2026 (50.63M)"
+Nintendo,Game,The Legend of Zelda: Tears of the Kingdom,2023-05-12,,22.9M,Units sold,firm,"Nintendo IR as of Sep 30, 2026 (22.90M)"
+Nintendo,Game,Mario Kart World (Switch 2),2025-06-05,,16.5M,Units sold,firm,"Nintendo IR as of Sep 30, 2026 (16.48M)"

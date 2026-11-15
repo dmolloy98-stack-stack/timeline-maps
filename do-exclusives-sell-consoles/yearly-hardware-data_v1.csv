@@ -1,0 +1,180 @@
+Console,Company,Type,Year,Units (M),Basis,Source
+Wii,Nintendo,Home,2006,3.19,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii,Nintendo,Home,2007,16.95,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii,Nintendo,Home,2008,24.82,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii,Nintendo,Home,2009,22.49,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii,Nintendo,Home,2010,17.19,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii,Nintendo,Home,2011,10.33,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii,Nintendo,Home,2012,4.41,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii,Nintendo,Home,2013,1.52,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii,Nintendo,Home,2014,0.54,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii,Nintendo,Home,2015,0.19,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii U,Nintendo,Home,2012,3.06,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii U,Nintendo,Home,2013,2.8,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii U,Nintendo,Home,2014,3.34,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii U,Nintendo,Home,2015,3.4,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Wii U,Nintendo,Home,2016,0.96,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+GameCube,Nintendo,Home,2005,2.58,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+GameCube,Nintendo,Home,2006,0.91,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+GameCube,Nintendo,Home,2007,0.2,Company-reported,Nintendo quarterly shipments via Video Game Sales Wiki
+Nintendo DS,Nintendo,Handheld,2005,11.59,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Nintendo DS,Nintendo,Handheld,2006,21.18,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Nintendo DS,Nintendo,Handheld,2007,29.18,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Nintendo DS,Nintendo,Handheld,2008,31.43,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Nintendo DS,Nintendo,Handheld,2009,28.91,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Nintendo DS,Nintendo,Handheld,2010,19.46,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Nintendo DS,Nintendo,Handheld,2011,6.47,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Nintendo DS,Nintendo,Handheld,2012,2.61,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Nintendo DS,Nintendo,Handheld,2013,0.31,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Nintendo DS,Nintendo,Handheld,2014,0.04,Company-reported,Nintendo shipments via Wikipedia (Nintendo DS sales)
+Switch,Nintendo,Home,2017,14.87,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)"
+Switch,Nintendo,Home,2018,17.41,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)"
+Switch,Nintendo,Home,2019,20.2,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)"
+Switch,Nintendo,Home,2020,27.39,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)"
+Switch,Nintendo,Home,2021,23.67,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)"
+Switch,Nintendo,Home,2022,19.01,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)"
+Switch,Nintendo,Home,2023,16.81,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)"
+Switch,Nintendo,Home,2024,11.5,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)"
+Switch,Nintendo,Home,2025,4.51,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR)"
+Switch,Nintendo,Home,2026,1.83,Company-reported,"Nintendo shipments: 2017–23 compiled by Paul Gale from Nintendo reports; 2024–26 from Nintendo cumulative figures (Gematsu, Nintendo IR) (Jan–Sep only)"
+Switch 2,Nintendo,Home,2025,17.37,Company-reported,"Nintendo shipments (Gematsu, Nintendo IR)"
+Switch 2,Nintendo,Home,2026,8.98,Company-reported,"Nintendo shipments (Gematsu, Nintendo IR) (Jan–Sep only)"
+Nintendo 3DS,Nintendo,Handheld,2011,12.55,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2012,13.41,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2013,13.65,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2014,8.88,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2015,7.57,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2016,7.72,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2017,6.48,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2018,3.59,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2019,1.56,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2020,0.49,Estimate,VGChartz yearly estimate
+Nintendo 3DS,Nintendo,Handheld,2021,0.03,Estimate,VGChartz yearly estimate
+PlayStation 4,PlayStation,Home,2013,4.5,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 4,PlayStation,Home,2014,15.7,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 4,PlayStation,Home,2015,17.6,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 4,PlayStation,Home,2016,19.5,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 4,PlayStation,Home,2017,19.4,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 4,PlayStation,Home,2018,17.7,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 4,PlayStation,Home,2019,14.6,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 4,PlayStation,Home,2020,6.2,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 4,PlayStation,Home,2021,1.9,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 4,PlayStation,Home,2022,0.1,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 5,PlayStation,Home,2020,4.5,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 5,PlayStation,Home,2021,12.8,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 5,PlayStation,Home,2022,14.8,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 5,PlayStation,Home,2023,22.7,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 5,PlayStation,Home,2024,20.2,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 5,PlayStation,Home,2025,17.2,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years"
+PlayStation 5,PlayStation,Home,2026,5.7,Company-reported,"Sony Interactive quarterly sell-in, regrouped into calendar years (Jan–Sep only)"
+PlayStation 3,PlayStation,Home,2006,1.25,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2007,7.92,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2008,10.51,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2009,13.29,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2010,13.82,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2011,14.66,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2012,11.99,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2013,8.2,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2014,3.39,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2015,1.53,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2016,0.63,Estimate,VGChartz yearly estimate
+PlayStation 3,PlayStation,Home,2017,0.19,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2005,9.61,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2006,9.52,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2007,12.84,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2008,14.07,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2009,9.92,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2010,9.15,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2011,7.52,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2012,4.24,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2013,3.12,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2014,1.36,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2015,0.52,Estimate,VGChartz yearly estimate
+PSP,PlayStation,Handheld,2016,0.18,Estimate,VGChartz yearly estimate
+PS Vita,PlayStation,Handheld,2011,0.46,Estimate,VGChartz yearly estimate
+PS Vita,PlayStation,Handheld,2012,3.21,Estimate,VGChartz yearly estimate
+PS Vita,PlayStation,Handheld,2013,2.92,Estimate,VGChartz yearly estimate
+PS Vita,PlayStation,Handheld,2014,2.63,Estimate,VGChartz yearly estimate
+PS Vita,PlayStation,Handheld,2015,1.82,Estimate,VGChartz yearly estimate
+PS Vita,PlayStation,Handheld,2016,1.43,Estimate,VGChartz yearly estimate
+PS Vita,PlayStation,Handheld,2017,0.53,Estimate,VGChartz yearly estimate
+PS Vita,PlayStation,Handheld,2018,0.12,Estimate,VGChartz yearly estimate
+PS Vita,PlayStation,Handheld,2019,0.01,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2005,1.18,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2006,6.81,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2007,7.91,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2008,11.16,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2009,10.62,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2010,13.97,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2011,14.14,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2012,10.85,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2013,6.28,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2014,2.01,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2015,0.55,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2016,0.25,Estimate,VGChartz yearly estimate
+Xbox 360,Xbox,Home,2017,0.03,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2013,3.07,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2014,7.59,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2015,9.0,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2016,9.61,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2017,9.1,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2018,8.76,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2019,6.54,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2020,4.13,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2021,0.15,Estimate,VGChartz yearly estimate
+Xbox One,Xbox,Home,2022,0.01,Estimate,VGChartz yearly estimate
+Xbox Series X|S,Xbox,Home,2020,2.95,Estimate,VGChartz yearly estimate
+Xbox Series X|S,Xbox,Home,2021,7.77,Estimate,VGChartz yearly estimate
+Xbox Series X|S,Xbox,Home,2022,8.69,Estimate,VGChartz yearly estimate
+Xbox Series X|S,Xbox,Home,2023,7.5,Estimate,VGChartz yearly estimate
+Xbox Series X|S,Xbox,Home,2024,4.86,Estimate,VGChartz yearly estimate
+Xbox Series X|S,Xbox,Home,2025,2.67,Estimate,VGChartz yearly estimate
+Xbox Series X|S,Xbox,Home,2026,1.23,Estimate,VGChartz yearly estimate (Jan–Sep only)
+
+Game,Release date,Console,Hit or miss,Game sales,Note
+Gears of War,2006-11-07,Xbox 360,hit,5M+,
+Halo 3,2007-09-25,Xbox 360,hit,14.5M,
+Gears of War 2,2008-11-07,Xbox 360,hit,5M+,
+Halo: Reach,2010-09-14,Xbox 360,hit,≈9.5M,
+Kinect Adventures!,2010-11-04,Xbox 360,hit,24M,Bundled with the Kinect sensor
+Halo 4,2012-11-06,Xbox 360,hit,≈8.9M,
+Halo 5: Guardians,2015-10-27,Xbox One,miss,,Flagship Halo release; Xbox One stayed well behind PS4
+Quantum Break,2016-04-05,Xbox One,miss,,New exclusive series; no sequel followed
+Forza Horizon 4,2018-10-02,Xbox One,hit,24M players,Also on PC and Game Pass
+Crackdown 3,2019-02-15,Xbox One,miss,,Delayed repeatedly; poorly reviewed
+Forza Horizon 5,2021-11-09,Xbox Series X|S,hit,55M+ players,On PS5 since 2025
+Halo Infinite,2021-12-08,Xbox Series X|S,miss,,Campaign delayed a year; multiplayer free-to-play
+Redfall,2023-05-02,Xbox Series X|S,miss,,Poorly reviewed; studio closed in 2024
+Starfield,2023-09-06,Xbox Series X|S,hit,14M players,On PS5 since 2026
+Gran Turismo 5,2010-11-24,PlayStation 3,hit,11.95M,
+The Last of Us,2013-06-14,PlayStation 3,hit,20M+ all versions,
+The Order: 1886,2015-02-20,PlayStation 4,miss,,Mixed reviews; no sequel
+Uncharted 4,2016-05-10,PlayStation 4,hit,16.2M,
+Horizon Zero Dawn,2017-02-28,PlayStation 4,hit,20M incl. PC,
+God of War,2018-04-20,PlayStation 4,hit,23M incl. PC,
+Marvel's Spider-Man,2018-09-07,PlayStation 4,hit,20M+,
+The Last of Us Part II,2020-06-19,PlayStation 4,hit,10M+,
+Ghost of Tsushima,2020-07-17,PlayStation 4,hit,13M incl. PC,
+God of War Ragnarök,2022-11-09,PlayStation 5,hit,15M incl. PC,Also on PS4
+Marvel's Spider-Man 2,2023-10-20,PlayStation 5,hit,10M+,
+Concord,2024-08-23,PlayStation 5,miss,,Taken offline two weeks after launch; buyers refunded
+Ghost of Yōtei,2025-10-02,PlayStation 5,hit,3.3M first month,
+Marvel's Wolverine,2026-09-15,PlayStation 5,hit,2.4M in 50 days,
+Uncharted: Golden Abyss,2011-12-17,PS Vita,miss,,Vita launch title; Vita never took off
+Wii Sports,2006-11-19,Wii,hit,82.9M,Bundled with the Wii
+Super Mario Galaxy,2007-11-01,Wii,hit,12.8M,
+Wii Fit,2007-12-01,Wii,hit,22.7M,
+Mario Kart Wii,2008-04-10,Wii,hit,37.4M,
+Wii Music,2008-10-16,Wii,miss,,Poorly received follow-up to Wii Sports
+New Super Mario Bros. Wii,2009-11-12,Wii,hit,30.3M,
+Super Mario 3D World,2013-11-21,Wii U,miss,,"Acclaimed, but Wii U sales stayed low"
+Mario Kart 8,2014-05-29,Wii U,miss,,"Wii U's best seller, but the console stayed low"
+Splatoon,2015-05-28,Wii U,miss,,"New hit series, but no lift for Wii U"
+Zelda: Breath of the Wild,2017-03-03,Switch,hit,34.3M,Switch launch title
+Mario Kart 8 Deluxe,2017-04-28,Switch,hit,72.0M,
+Super Mario Odyssey,2017-10-27,Switch,hit,31.1M,
+Nintendo Labo,2018-04-20,Switch,miss,,Cardboard kits; sold far below Nintendo's hopes
+Super Smash Bros. Ultimate,2018-12-07,Switch,hit,38.5M,
+Animal Crossing: New Horizons,2020-03-20,Switch,hit,50.6M,Released as pandemic lockdowns began
+Zelda: Tears of the Kingdom,2023-05-12,Switch,hit,22.9M,
+Mario Kart World,2025-06-05,Switch 2,hit,16.5M,Switch 2 launch title

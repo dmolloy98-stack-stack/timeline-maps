@@ -1,0 +1,37 @@
+/* Timeline Maps: shared site styles. Layout: narrow top bar, content column up to 1240px. */
+:root {
+  --bg: #F3F5F8; --panel: #FFFFFF; --ink: #121821; --muted: #5A6577; --faint: #8A93A3;
+  --rule: #DCE1E8; --grid: #E8ECF1; --accent: #2B3A55;
+  --xbox: #107C10; --ps: #1546B0; --nin: #D9111E;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --bg: #0E1219; --panel: #161C26; --ink: #E9EDF3; --muted: #A2ACBB; --faint: #6F7A8B;
+  --rule: #2A3341; --grid: #212936; --accent: #C9D4E6;
+  --xbox: #3FB83F; --ps: #6B98FF; --nin: #FF5A64; color-scheme: dark } }
+* { box-sizing: border-box }
+html, body { margin: 0 }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px }
+a { color: inherit }
+.topbar { max-width: 1240px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; border-bottom: 1px solid var(--rule); margin-bottom: 28px }
+.brand { font-family: var(--display); font-weight: 800; font-size: 18px; text-decoration: none; letter-spacing: -.01em; display: inline-flex; align-items: center; gap: 10px }
+.brand i { display: inline-flex; gap: 3px }
+.brand i b { width: 6px; height: 18px; border-radius: 2px; display: block }
+.topbar nav { display: flex; gap: 18px; font-size: 14px; flex-wrap: wrap }
+.topbar nav a { text-decoration: none; color: var(--muted) }
+.topbar nav a[aria-current="page"], .topbar nav a:hover { color: var(--ink) }
+.wrap { max-width: 1240px; margin: 0 auto; display: grid; gap: 20px }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(30px, 5vw, 48px); line-height: 1.05; margin: 0; letter-spacing: -.01em; text-wrap: balance }
+h2 { font-family: var(--display); font-weight: 700; font-size: 20px; margin: 0 0 10px }
+.lede { color: var(--muted); max-width: 70ch; margin: 0; font-size: 16px }
+.panel { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px }
+.btn { display: inline-flex; align-items: center; gap: 8px; font: 500 14px var(--body); color: var(--ink); text-decoration: none; border: 1px solid var(--ink); border-radius: 999px; padding: 7px 14px }
+.btn.quiet { border-color: var(--rule); color: var(--muted) }
+.btn:hover { background: var(--grid) }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+footer.site { max-width: 1240px; margin: 36px auto 0; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--faint); font-size: 13px }

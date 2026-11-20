@@ -5,6 +5,7 @@ Side-by-side timeline maps comparing events, companies and eras on one shared ax
 - `index.html` – home page listing every map
 - `console-wars/` – Xbox vs. PlayStation vs. Nintendo poster (PDF, PNG, data)
 - `do-exclusives-sell-consoles/` – interactive yearly sales chart
+- `nba-career-comparison/` – Jordan vs. Kobe vs. LeBron career timelines, calendar years and career years (PNG, SVG, data, source log)
 - `marxism-mormonism/` – Joseph Smith vs. Karl Marx poster, 1805–today (PDF, PNG, SVG, data, source log)
 
 To add a map: create a new folder with its own `index.html`, add a thumbnail to `assets/`, and add a card to the home page and a link to each page's top bar.

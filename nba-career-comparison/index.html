@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jordan vs. Kobe vs. LeBron</title>
+<meta name="description" content="Three NBA careers on one calendar axis and lined up by career year: titles, MVPs and key moments for Michael Jordan, Kobe Bryant and LeBron James.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+<style>
+:root { --mj: #B8312D; --kobe: #5B3A9E; --lbj: #8A5A00 }
+@media (prefers-color-scheme: dark) { :root { --mj: #F07C74; --kobe: #B497F0; --lbj: #F2B134 } }
+.poster { padding: 10px; overflow-x: auto }
+.poster a { display: block; min-width: 900px }
+.poster img { display: block; width: 100%; height: auto; border-radius: 6px }
+.actions { display: flex; flex-wrap: wrap; gap: 10px }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 12px }
+.fact { padding: 14px 16px; display: grid; gap: 2px }
+.fact .n { font-family: var(--display); font-weight: 800; font-size: 34px; line-height: 1.1; font-variant-numeric: tabular-nums }
+.fact .who { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+.fact .l { color: var(--muted); font-size: 14px }
+.notes { padding: 18px 20px; color: var(--muted); font-size: 14px; display: grid; gap: 8px }
+.notes p { margin: 0 }
+.caveat { border-left: 4px solid var(--kobe) }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="../"><i aria-hidden="true"><b style="background:var(--xbox)"></b><b style="background:var(--ps)"></b><b style="background:var(--nin)"></b></i>Timeline Maps</a>
+  <nav aria-label="Maps"><a href="../console-wars/">Console Wars</a><a href="../do-exclusives-sell-consoles/">Do exclusives sell consoles?</a><a href="../marxism-mormonism/">Smith vs. Marx</a><a href="./" aria-current="page">Jordan · Kobe · LeBron</a></nav>
+</header>
+<main class="wrap">
+  <header style="display:grid;gap:8px">
+    <div class="eyebrow">Map · calendar years and career years · data as of Nov 19, 2026 · fact-checked Nov 20, 2026</div>
+    <h1>Jordan vs. Kobe vs. LeBron</h1>
+    <p class="lede">Three NBA careers shown twice: first on one calendar axis (1984 to today), so you can see who was playing when, then lined up by career year, so every player starts at Year 1. Titles, MVPs and the moments that changed each career are marked. Click the map to open it at full size.</p>
+  </header>
+  <div class="actions">
+    <a class="btn" href="nba-career-comparison_v2.png">Full-size PNG (3840 × 2128)</a>
+    <a class="btn quiet" href="nba-career-comparison_v2.svg">Editable SVG</a>
+    <a class="btn quiet" href="nba-career-comparison-data_v2.csv">Data (CSV)</a>
+    <a class="btn quiet" href="nba-career-comparison-sources_v2.md">Source log</a>
+  </div>
+  <div class="panel poster"><a href="nba-career-comparison_v2.png"><img src="map-web.png" alt="Two-part timeline of the NBA careers of Michael Jordan, Kobe Bryant and LeBron James. The top view places each season on a shared calendar axis from 1984 to 2026, marking titles and MVPs. The bottom view lines the careers up by career year, with Jordan's retirement years hatched. Jordan won 6 titles, Kobe 5 and LeBron 4." width="1920" height="1064"></a></div>
+  <section class="facts" aria-label="Career totals">
+    <div class="panel fact"><span class="who">Michael Jordan · 1984–2003</span><span class="n" style="color:var(--mj)">6 titles</span><span class="l">5 MVPs, 6 Finals MVPs, 14 All-Stars in 15 seasons, with two retirements in between</span></div>
+    <div class="panel fact"><span class="who">Kobe Bryant · 1996–2016</span><span class="n" style="color:var(--kobe)">5 titles</span><span class="l">1 MVP, 2 Finals MVPs, 18 All-Stars in 20 seasons, all with the Lakers</span></div>
+    <div class="panel fact"><span class="who">LeBron James · 2003–present</span><span class="n" style="color:var(--lbj)">4 titles</span><span class="l">4 MVPs, 4 Finals MVPs, 22 All-Stars; 24th season in progress with the 76ers</span></div>
+  </section>
+  <section class="panel notes">
+    <h2 style="color:var(--ink)">About the data</h2>
+    <p>Award counts were checked in two independent sources for each player (Wikipedia's achievements lists and Basketball-Reference). Each date on the map was checked against at least two opened pages, except LeBron's 2003 draft position, which rests on a single source. The source log lists every link and notes where outlets disagree on a day.</p>
+    <p>All-Star counts run through 2025–26. LeBron's 2026–27 season is still being played, so no in-season numbers are printed. Season labels use the start year, so 1984 means the 1984–85 season.</p>
+  </section>
+  <section class="panel notes caveat">
+    <h2 style="color:var(--ink)">A note on "Year 14"</h2>
+    <p>By the end of Year 14, Jordan had 6 titles, Kobe 5 and LeBron 3. Jordan's Year 14 includes his baseball year, so he had played 13 seasons by then. At 13 seasons played the count is Jordan 6, Kobe 4, LeBron 3, so the ranking is the same either way.</p>
+  </section>
+</main>
+<footer class="site">Made November 2026 · <a href="../">All maps</a></footer>
+</body>
+</html>

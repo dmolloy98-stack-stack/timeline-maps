@@ -1,0 +1,446 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1064" viewBox="0 0 1920 1064" font-family="Inter, 'DejaVu Sans', sans-serif">
+<defs><pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#F7F6F2"/><line x1="0" y1="0" x2="0" y2="7" stroke="#A9A59B" stroke-width="2"/></pattern></defs>
+<rect x="0.0" y="0.0" width="1920.0" height="1064.0" fill="#FBFAF7" stroke="none" stroke-width="1" rx="0" />
+<text x="60.0" y="52.0" font-size="34" font-weight="800" fill="#1E1E1E" text-anchor="start" >Three Careers, One Axis: Jordan · Kobe · LeBron</text>
+<text x="60.0" y="80.0" font-size="15" font-weight="500" fill="#5B5B5B" text-anchor="start" >NBA playing years, 1984–2027  ·  data as of Nov 19, 2026</text>
+<polygon points="1108.0,32.0 1110.1,37.1 1115.6,37.5 1111.4,41.1 1112.7,46.5 1108.0,43.6 1103.3,46.5 1104.6,41.1 1100.4,37.5 1105.9,37.1" fill="#1E1E1E"/>
+<text x="1122.0" y="44.0" font-size="12" font-weight="500" fill="#1E1E1E" text-anchor="start" >NBA title</text>
+<polygon points="1208.0,32.0 1216.0,40.0 1208.0,48.0 1200.0,40.0" fill="#1E1E1E"/>
+<text x="1222.0" y="44.0" font-size="12" font-weight="500" fill="#1E1E1E" text-anchor="start" >Regular-season MVP</text>
+<rect x="1370.0" y="32.0" width="22.0" height="16.0" fill="url(#hatch)" stroke="#A9A59B" stroke-width="1" rx="0" />
+<text x="1400.0" y="44.0" font-size="12" font-weight="500" fill="#1E1E1E" text-anchor="start" >Not playing (retired / other)</text>
+<rect x="1100.0" y="64.0" width="22.0" height="16.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" opacity="0.5"/>
+<text x="1130.0" y="76.0" font-size="12" font-weight="500" fill="#1E1E1E" text-anchor="start" >Partial season (17 games)</text>
+<rect x="1330.0" y="64.0" width="22.0" height="16.0" fill="#F2B134" stroke="#8A5A00" stroke-width="1.5" rx="0" opacity="0.35" stroke-dasharray="3 2"/>
+<text x="1360.0" y="76.0" font-size="12" font-weight="500" fill="#1E1E1E" text-anchor="start" >Season in progress</text>
+<text x="60.0" y="112.0" font-size="11" font-weight="700" fill="#5B5B5B" text-anchor="start" letter-spacing="1.2">CAREER TOTALS</text>
+<text x="330.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >Titles</text>
+<text x="440.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >MVPs</text>
+<text x="575.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >Finals MVPs</text>
+<text x="710.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >All-Stars</text>
+<text x="820.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >Seasons</text>
+<rect x="60.0" y="147.0" width="12.0" height="22.0" fill="#D64541" stroke="none" stroke-width="1" rx="3" />
+<text x="82.0" y="164.0" font-size="15" font-weight="700" fill="#1E1E1E" text-anchor="start" >Jordan</text>
+<text x="330.0" y="165.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >6</text>
+<text x="440.0" y="165.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >5</text>
+<text x="575.0" y="165.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >6</text>
+<text x="710.0" y="165.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >14</text>
+<text x="820.0" y="165.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >15</text>
+<rect x="60.0" y="177.0" width="12.0" height="22.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="3" />
+<text x="82.0" y="194.0" font-size="15" font-weight="700" fill="#1E1E1E" text-anchor="start" >Kobe</text>
+<text x="330.0" y="195.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >5</text>
+<text x="440.0" y="195.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >1</text>
+<text x="575.0" y="195.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >2</text>
+<text x="710.0" y="195.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >18</text>
+<text x="820.0" y="195.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >20</text>
+<rect x="60.0" y="207.0" width="12.0" height="22.0" fill="#F2B134" stroke="none" stroke-width="1" rx="3" />
+<text x="82.0" y="224.0" font-size="15" font-weight="700" fill="#1E1E1E" text-anchor="start" >LeBron</text>
+<text x="330.0" y="225.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >4</text>
+<text x="440.0" y="225.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >4</text>
+<text x="575.0" y="225.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >4</text>
+<text x="710.0" y="225.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >22</text>
+<text x="820.0" y="225.0" font-size="21" font-weight="800" fill="#1E1E1E" text-anchor="middle" >24*</text>
+<text x="960.0" y="112.0" font-size="11" font-weight="700" fill="#5B5B5B" text-anchor="start" letter-spacing="1.2">NBA TITLES BY DECADE (by title year) — who led when</text>
+<text x="1190.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >1990s</text>
+<text x="1340.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >2000s</text>
+<text x="1490.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >2010s</text>
+<text x="1640.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >2020s</text>
+<text x="1790.0" y="132.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >Total</text>
+<rect x="960.0" y="147.0" width="12.0" height="22.0" fill="#D64541" stroke="none" stroke-width="1" rx="3" />
+<text x="982.0" y="164.0" font-size="15" font-weight="700" fill="#1E1E1E" text-anchor="start" >Jordan</text>
+<rect x="1156.0" y="145.0" width="68.0" height="26.0" fill="#D64541" stroke="none" stroke-width="1" rx="6" />
+<text x="1190.0" y="165.0" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle" >6</text>
+<text x="1340.0" y="165.0" font-size="20" font-weight="500" fill="#9A968C" text-anchor="middle" >0</text>
+<text x="1490.0" y="165.0" font-size="20" font-weight="500" fill="#9A968C" text-anchor="middle" >0</text>
+<text x="1640.0" y="165.0" font-size="20" font-weight="500" fill="#9A968C" text-anchor="middle" >0</text>
+<text x="1790.0" y="165.0" font-size="20" font-weight="800" fill="#1E1E1E" text-anchor="middle" >6</text>
+<rect x="960.0" y="177.0" width="12.0" height="22.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="3" />
+<text x="982.0" y="194.0" font-size="15" font-weight="700" fill="#1E1E1E" text-anchor="start" >Kobe</text>
+<text x="1190.0" y="195.0" font-size="20" font-weight="500" fill="#9A968C" text-anchor="middle" >0</text>
+<rect x="1306.0" y="175.0" width="68.0" height="26.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="6" />
+<text x="1340.0" y="195.0" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle" >4</text>
+<text x="1490.0" y="195.0" font-size="20" font-weight="500" fill="#9A968C" text-anchor="middle" >1</text>
+<text x="1640.0" y="195.0" font-size="20" font-weight="500" fill="#9A968C" text-anchor="middle" >0</text>
+<text x="1790.0" y="195.0" font-size="20" font-weight="800" fill="#1E1E1E" text-anchor="middle" >5</text>
+<rect x="960.0" y="207.0" width="12.0" height="22.0" fill="#F2B134" stroke="none" stroke-width="1" rx="3" />
+<text x="982.0" y="224.0" font-size="15" font-weight="700" fill="#1E1E1E" text-anchor="start" >LeBron</text>
+<text x="1190.0" y="225.0" font-size="20" font-weight="500" fill="#9A968C" text-anchor="middle" >0</text>
+<text x="1340.0" y="225.0" font-size="20" font-weight="500" fill="#9A968C" text-anchor="middle" >0</text>
+<rect x="1456.0" y="205.0" width="68.0" height="26.0" fill="#F2B134" stroke="none" stroke-width="1" rx="6" />
+<text x="1490.0" y="225.0" font-size="20" font-weight="800" fill="#3A2A00" text-anchor="middle" >3</text>
+<rect x="1606.0" y="205.0" width="68.0" height="26.0" fill="#F2B134" stroke="none" stroke-width="1" rx="6" />
+<text x="1640.0" y="225.0" font-size="20" font-weight="800" fill="#3A2A00" text-anchor="middle" >1</text>
+<text x="1790.0" y="225.0" font-size="20" font-weight="800" fill="#1E1E1E" text-anchor="middle" >4</text>
+<text x="60.0" y="262.0" font-size="13" font-weight="800" fill="#1E1E1E" text-anchor="start" >VIEW 1 · CALENDAR YEARS</text>
+<text x="298.0" y="262.0" font-size="12" font-weight="500" fill="#5B5B5B" text-anchor="start" >who was playing when (each block = one season)</text>
+<rect x="200.0" y="270.0" width="231.6" height="384.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="315.8" y="285.0" font-size="12" font-weight="700" fill="#5B5B5B" text-anchor="middle" >1980s</text>
+<rect x="431.6" y="270.0" width="386.0" height="384.0" fill="#FBFAF7" stroke="none" stroke-width="1" rx="0" />
+<text x="624.7" y="285.0" font-size="12" font-weight="700" fill="#5B5B5B" text-anchor="middle" >1990s</text>
+<rect x="817.7" y="270.0" width="386.0" height="384.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="1010.7" y="285.0" font-size="12" font-weight="700" fill="#5B5B5B" text-anchor="middle" >2000s</text>
+<rect x="1203.7" y="270.0" width="386.0" height="384.0" fill="#FBFAF7" stroke="none" stroke-width="1" rx="0" />
+<text x="1396.7" y="285.0" font-size="12" font-weight="700" fill="#5B5B5B" text-anchor="middle" >2010s</text>
+<rect x="1589.8" y="270.0" width="270.2" height="384.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="1724.9" y="285.0" font-size="12" font-weight="700" fill="#5B5B5B" text-anchor="middle" >2020s</text>
+<text x="219.3" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >1984</text>
+<line x1="219.3" y1="308.0" x2="219.3" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="296.5" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >1986</text>
+<line x1="296.5" y1="308.0" x2="296.5" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="373.7" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >1988</text>
+<line x1="373.7" y1="308.0" x2="373.7" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="450.9" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >1990</text>
+<line x1="450.9" y1="308.0" x2="450.9" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="528.1" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >1992</text>
+<line x1="528.1" y1="308.0" x2="528.1" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="605.3" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >1994</text>
+<line x1="605.3" y1="308.0" x2="605.3" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="682.6" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >1996</text>
+<line x1="682.6" y1="308.0" x2="682.6" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="759.8" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >1998</text>
+<line x1="759.8" y1="308.0" x2="759.8" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="837.0" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2000</text>
+<line x1="837.0" y1="308.0" x2="837.0" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="914.2" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2002</text>
+<line x1="914.2" y1="308.0" x2="914.2" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="991.4" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2004</text>
+<line x1="991.4" y1="308.0" x2="991.4" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1068.6" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2006</text>
+<line x1="1068.6" y1="308.0" x2="1068.6" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1145.8" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2008</text>
+<line x1="1145.8" y1="308.0" x2="1145.8" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1223.0" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2010</text>
+<line x1="1223.0" y1="308.0" x2="1223.0" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1300.2" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2012</text>
+<line x1="1300.2" y1="308.0" x2="1300.2" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1377.4" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2014</text>
+<line x1="1377.4" y1="308.0" x2="1377.4" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1454.7" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2016</text>
+<line x1="1454.7" y1="308.0" x2="1454.7" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1531.9" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2018</text>
+<line x1="1531.9" y1="308.0" x2="1531.9" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1609.1" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2020</text>
+<line x1="1609.1" y1="308.0" x2="1609.1" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1686.3" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2022</text>
+<line x1="1686.3" y1="308.0" x2="1686.3" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1763.5" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2024</text>
+<line x1="1763.5" y1="308.0" x2="1763.5" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="1840.7" y="303.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="middle" >2026</text>
+<line x1="1840.7" y1="308.0" x2="1840.7" y2="654.0" stroke="#D6D3CB" stroke-width="0.6" />
+<text x="60.0" y="370.0" font-size="15" font-weight="800" fill="#1E1E1E" text-anchor="start" >Michael Jordan</text>
+<text x="60.0" y="388.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="start" >15 seasons · 1984–2003</text>
+<rect x="200.5" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="239.1" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="277.7" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="316.3" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="354.9" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="393.5" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="432.1" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="470.7" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="509.3" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="547.9" y="352.0" width="37.6" height="28.0" fill="url(#hatch)" stroke="#A9A59B" stroke-width="0.8" rx="0" />
+<rect x="586.5" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" opacity="0.5"/>
+<rect x="625.2" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="663.8" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="702.4" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="741.0" y="352.0" width="37.6" height="28.0" fill="url(#hatch)" stroke="#A9A59B" stroke-width="0.8" rx="0" />
+<rect x="779.6" y="352.0" width="37.6" height="28.0" fill="url(#hatch)" stroke="#A9A59B" stroke-width="0.8" rx="0" />
+<rect x="818.2" y="352.0" width="37.6" height="28.0" fill="url(#hatch)" stroke="#A9A59B" stroke-width="0.8" rx="0" />
+<rect x="856.8" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="895.4" y="352.0" width="37.6" height="28.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<polygon points="443.2,359.0 445.1,363.5 449.9,363.8 446.2,367.0 447.3,371.7 443.2,369.1 439.1,371.7 440.2,367.0 436.6,363.8 441.4,363.5" fill="#FFFFFF"/>
+<polygon points="481.8,359.0 483.7,363.5 488.5,363.8 484.8,367.0 485.9,371.7 481.8,369.1 477.7,371.7 478.8,367.0 475.2,363.8 480.0,363.5" fill="#FFFFFF"/>
+<polygon points="520.4,359.0 522.3,363.5 527.1,363.8 523.4,367.0 524.5,371.7 520.4,369.1 516.3,371.7 517.4,367.0 513.8,363.8 518.6,363.5" fill="#FFFFFF"/>
+<polygon points="636.2,359.0 638.1,363.5 642.9,363.8 639.2,367.0 640.3,371.7 636.2,369.1 632.1,371.7 633.2,367.0 629.6,363.8 634.4,363.5" fill="#FFFFFF"/>
+<polygon points="674.8,359.0 676.7,363.5 681.5,363.8 677.8,367.0 679.0,371.7 674.8,369.1 670.7,371.7 671.8,367.0 668.2,363.8 673.0,363.5" fill="#FFFFFF"/>
+<polygon points="713.4,359.0 715.3,363.5 720.1,363.8 716.4,367.0 717.6,371.7 713.4,369.1 709.3,371.7 710.4,367.0 706.8,363.8 711.6,363.5" fill="#FFFFFF"/>
+<polygon points="342.8,360.0 348.8,366.0 342.8,372.0 336.8,366.0" fill="#FFFFFF"/>
+<polygon points="458.7,360.0 464.7,366.0 458.7,372.0 452.7,366.0" fill="#FFFFFF"/>
+<polygon points="497.3,360.0 503.3,366.0 497.3,372.0 491.3,366.0" fill="#FFFFFF"/>
+<polygon points="651.7,360.0 657.7,366.0 651.7,372.0 645.7,366.0" fill="#FFFFFF"/>
+<polygon points="728.9,360.0 734.9,366.0 728.9,372.0 722.9,366.0" fill="#FFFFFF"/>
+<rect x="200.5" y="380.0" width="346.4" height="14.0" fill="#8E2A27" stroke="none" stroke-width="1" rx="0" />
+<text x="373.7" y="390.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Chicago Bulls</text>
+<rect x="586.5" y="380.0" width="153.4" height="14.0" fill="#8E2A27" stroke="none" stroke-width="1" rx="0" />
+<text x="663.3" y="390.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Bulls</text>
+<rect x="856.8" y="380.0" width="76.2" height="14.0" fill="#8E2A27" stroke="none" stroke-width="1" rx="0" />
+<text x="894.9" y="390.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Wizards</text>
+<line x1="566.7" y1="347.0" x2="566.7" y2="352.0" stroke="#8E2A27" stroke-width="1" />
+<text x="569.7" y="344.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Retires, Oct ’93 · baseball</text>
+<line x1="605.3" y1="394.0" x2="605.3" y2="398.0" stroke="#8E2A27" stroke-width="1" />
+<text x="608.3" y="408.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >“I’m back,” Mar ’95</text>
+<line x1="759.8" y1="347.0" x2="759.8" y2="352.0" stroke="#8E2A27" stroke-width="1" />
+<text x="762.8" y="344.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Retires again, Jan ’99</text>
+<line x1="875.6" y1="394.0" x2="875.6" y2="398.0" stroke="#8E2A27" stroke-width="1" />
+<text x="878.6" y="408.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Wizards comeback, Sep ’01</text>
+<line x1="914.2" y1="347.0" x2="914.2" y2="352.0" stroke="#8E2A27" stroke-width="1" />
+<text x="917.2" y="344.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Final game, Apr ’03</text>
+<text x="60.0" y="482.0" font-size="15" font-weight="800" fill="#1E1E1E" text-anchor="start" >Kobe Bryant</text>
+<text x="60.0" y="500.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="start" >20 seasons · 1996–2016</text>
+<rect x="663.8" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="702.4" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="741.0" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="779.6" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="818.2" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="856.8" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="895.4" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="934.0" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="972.6" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1011.2" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1049.8" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1088.4" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1127.0" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1165.6" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1204.2" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1242.8" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1281.4" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1320.0" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1358.6" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1397.2" y="464.0" width="37.6" height="28.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<polygon points="790.7,471.0 792.5,475.5 797.3,475.8 793.6,479.0 794.8,483.7 790.7,481.1 786.5,483.7 787.7,479.0 784.0,475.8 788.8,475.5" fill="#FFFFFF"/>
+<polygon points="829.3,471.0 831.1,475.5 835.9,475.8 832.3,479.0 833.4,483.7 829.3,481.1 825.1,483.7 826.3,479.0 822.6,475.8 827.4,475.5" fill="#FFFFFF"/>
+<polygon points="867.9,471.0 869.7,475.5 874.5,475.8 870.9,479.0 872.0,483.7 867.9,481.1 863.7,483.7 864.9,479.0 861.2,475.8 866.0,475.5" fill="#FFFFFF"/>
+<polygon points="1138.1,471.0 1139.9,475.5 1144.8,475.8 1141.1,479.0 1142.2,483.7 1138.1,481.1 1134.0,483.7 1135.1,479.0 1131.4,475.8 1136.2,475.5" fill="#FFFFFF"/>
+<polygon points="1176.7,471.0 1178.5,475.5 1183.4,475.8 1179.7,479.0 1180.8,483.7 1176.7,481.1 1172.6,483.7 1173.7,479.0 1170.0,475.8 1174.8,475.5" fill="#FFFFFF"/>
+<polygon points="1114.9,472.0 1120.9,478.0 1114.9,484.0 1108.9,478.0" fill="#FFFFFF"/>
+<rect x="663.8" y="492.0" width="771.1" height="14.0" fill="#4B2E83" stroke="none" stroke-width="1" rx="0" />
+<text x="1049.3" y="502.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Los Angeles Lakers</text>
+<line x1="682.6" y1="459.0" x2="682.6" y2="464.0" stroke="#4B2E83" stroke-width="1" />
+<text x="685.6" y="456.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Drafted 13th, ’96</text>
+<line x1="991.4" y1="445.0" x2="991.4" y2="464.0" stroke="#4B2E83" stroke-width="1" />
+<text x="994.4" y="442.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Shaq traded, ’04</text>
+<line x1="1030.0" y1="459.0" x2="1030.0" y2="464.0" stroke="#4B2E83" stroke-width="1" />
+<text x="1033.0" y="456.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >81 points, Jan ’06</text>
+<line x1="1300.2" y1="506.0" x2="1300.2" y2="510.0" stroke="#4B2E83" stroke-width="1" />
+<text x="1303.2" y="520.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Achilles, Apr ’13</text>
+<line x1="1377.4" y1="459.0" x2="1377.4" y2="464.0" stroke="#4B2E83" stroke-width="1" />
+<text x="1374.4" y="456.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="end" >Passes MJ on scoring list, Dec ’14</text>
+<line x1="1416.0" y1="506.0" x2="1416.0" y2="524.0" stroke="#4B2E83" stroke-width="1" />
+<text x="1413.0" y="534.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="end" >Final game: 60 pts, Apr ’16</text>
+<text x="60.0" y="594.0" font-size="15" font-weight="800" fill="#1E1E1E" text-anchor="start" >LeBron James</text>
+<text x="60.0" y="612.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="start" >24 seasons · 2003–present</text>
+<rect x="934.0" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="972.6" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1011.2" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1049.8" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1088.4" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1127.0" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1165.6" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1204.2" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1242.8" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1281.4" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1320.0" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1358.6" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1397.2" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1435.8" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1474.5" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1513.1" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1551.7" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1590.3" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1628.9" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1667.5" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1706.1" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1744.7" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1783.3" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1821.9" y="576.0" width="37.6" height="28.0" fill="#F2B134" stroke="#8A5A00" stroke-width="1.5" rx="0" opacity="0.35" stroke-dasharray="4 3"/>
+<polygon points="1253.9,583.0 1255.8,587.5 1260.6,587.8 1256.9,591.0 1258.0,595.7 1253.9,593.1 1249.8,595.7 1250.9,591.0 1247.2,587.8 1252.1,587.5" fill="#3A2A00"/>
+<polygon points="1292.5,583.0 1294.4,587.5 1299.2,587.8 1295.5,591.0 1296.6,595.7 1292.5,593.1 1288.4,595.7 1289.5,591.0 1285.9,587.8 1290.7,587.5" fill="#3A2A00"/>
+<polygon points="1408.3,583.0 1410.2,587.5 1415.0,587.8 1411.3,591.0 1412.4,595.7 1408.3,593.1 1404.2,595.7 1405.3,591.0 1401.7,587.8 1406.5,587.5" fill="#3A2A00"/>
+<polygon points="1562.7,583.0 1564.6,587.5 1569.4,587.8 1565.7,591.0 1566.9,595.7 1562.7,593.1 1558.6,595.7 1559.7,591.0 1556.1,587.8 1560.9,587.5" fill="#3A2A00"/>
+<polygon points="1153.5,584.0 1159.5,590.0 1153.5,596.0 1147.5,590.0" fill="#3A2A00"/>
+<polygon points="1192.1,584.0 1198.1,590.0 1192.1,596.0 1186.1,590.0" fill="#3A2A00"/>
+<polygon points="1269.3,584.0 1275.3,590.0 1269.3,596.0 1263.3,590.0" fill="#3A2A00"/>
+<polygon points="1308.0,584.0 1314.0,590.0 1308.0,596.0 1302.0,590.0" fill="#3A2A00"/>
+<rect x="934.0" y="604.0" width="269.2" height="14.0" fill="#8A5A00" stroke="none" stroke-width="1" rx="0" />
+<text x="1068.6" y="614.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Cleveland Cavaliers</text>
+<rect x="1204.2" y="604.0" width="153.4" height="14.0" fill="#8A5A00" stroke="none" stroke-width="1" rx="0" />
+<text x="1280.9" y="614.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Miami Heat</text>
+<rect x="1358.6" y="604.0" width="153.4" height="14.0" fill="#8A5A00" stroke="none" stroke-width="1" rx="0" />
+<text x="1435.3" y="614.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Cleveland</text>
+<rect x="1513.1" y="604.0" width="307.8" height="14.0" fill="#8A5A00" stroke="none" stroke-width="1" rx="0" />
+<text x="1667.0" y="614.5" font-size="10.5" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Los Angeles Lakers</text>
+<rect x="1821.9" y="604.0" width="37.6" height="14.0" fill="#8A5A00" stroke="none" stroke-width="1" rx="0" />
+<text x="1840.7" y="614.5" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" >PHI</text>
+<line x1="952.8" y1="571.0" x2="952.8" y2="576.0" stroke="#8A5A00" stroke-width="1" />
+<text x="955.8" y="568.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >No. 1 pick, ’03</text>
+<line x1="1223.0" y1="571.0" x2="1223.0" y2="576.0" stroke="#8A5A00" stroke-width="1" />
+<text x="1226.0" y="568.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >The Decision → Heat, Jul ’10</text>
+<line x1="1377.4" y1="618.0" x2="1377.4" y2="622.0" stroke="#8A5A00" stroke-width="1" />
+<text x="1380.4" y="632.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Returns to Cleveland, Jul ’14</text>
+<line x1="1531.9" y1="571.0" x2="1531.9" y2="576.0" stroke="#8A5A00" stroke-width="1" />
+<text x="1534.9" y="568.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Signs with Lakers, ’18</text>
+<line x1="1686.3" y1="618.0" x2="1686.3" y2="622.0" stroke="#8A5A00" stroke-width="1" />
+<text x="1689.3" y="632.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Passes Kareem, Feb ’23</text>
+<line x1="1840.7" y1="571.0" x2="1840.7" y2="576.0" stroke="#8A5A00" stroke-width="1" />
+<text x="1837.7" y="568.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="end" >Signs with 76ers, Jul ’26</text>
+<text x="60.0" y="680.0" font-size="13" font-weight="800" fill="#1E1E1E" text-anchor="start" >VIEW 2 · CAREER YEARS</text>
+<text x="298.0" y="680.0" font-size="12" font-weight="500" fill="#5B5B5B" text-anchor="start" >same starting line: Year 1 = each player’s first season; hatched = years not playing</text>
+<rect x="200.0" y="690.0" width="1660.0" height="270.0" fill="#FBFAF7" stroke="none" stroke-width="1" rx="0" />
+<rect x="200.0" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="234.6" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >1</text>
+<text x="303.8" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >2</text>
+<rect x="338.3" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="372.9" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >3</text>
+<text x="442.1" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >4</text>
+<rect x="476.7" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="511.2" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >5</text>
+<text x="580.4" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >6</text>
+<rect x="615.0" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="649.6" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >7</text>
+<text x="718.8" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >8</text>
+<rect x="753.3" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="787.9" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >9</text>
+<text x="857.1" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >10</text>
+<rect x="891.7" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="926.3" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >11</text>
+<text x="995.4" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >12</text>
+<rect x="1030.0" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="1064.6" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >13</text>
+<text x="1133.8" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >14</text>
+<rect x="1168.3" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="1202.9" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >15</text>
+<text x="1272.1" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >16</text>
+<rect x="1306.7" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="1341.2" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >17</text>
+<text x="1410.4" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >18</text>
+<rect x="1445.0" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="1479.6" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >19</text>
+<text x="1548.8" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >20</text>
+<rect x="1583.3" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="1617.9" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >21</text>
+<text x="1687.1" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >22</text>
+<rect x="1721.7" y="690.0" width="69.2" height="270.0" fill="#F0EEE8" stroke="none" stroke-width="1" rx="0" />
+<text x="1756.2" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >23</text>
+<text x="1825.4" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="middle" >24</text>
+<text x="60.0" y="710.0" font-size="12" font-weight="600" fill="#5B5B5B" text-anchor="start" >Year of career</text>
+<text x="60.0" y="762.0" font-size="15" font-weight="800" fill="#1E1E1E" text-anchor="start" >Michael Jordan</text>
+<rect x="200.5" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="269.7" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="338.8" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="408.0" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="477.2" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="546.3" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="615.5" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="684.7" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="753.8" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="823.0" y="742.0" width="68.2" height="30.0" fill="url(#hatch)" stroke="#A9A59B" stroke-width="0.8" rx="0" />
+<rect x="892.2" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" opacity="0.5"/>
+<rect x="961.3" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="1030.5" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="1099.7" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="1168.8" y="742.0" width="68.2" height="30.0" fill="url(#hatch)" stroke="#A9A59B" stroke-width="0.8" rx="0" />
+<rect x="1238.0" y="742.0" width="68.2" height="30.0" fill="url(#hatch)" stroke="#A9A59B" stroke-width="0.8" rx="0" />
+<rect x="1307.2" y="742.0" width="68.2" height="30.0" fill="url(#hatch)" stroke="#A9A59B" stroke-width="0.8" rx="0" />
+<rect x="1376.3" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<rect x="1445.5" y="742.0" width="68.2" height="30.0" fill="#D64541" stroke="none" stroke-width="1" rx="0" />
+<polygon points="637.1,749.0 639.2,754.1 644.7,754.5 640.6,758.1 641.8,763.5 637.1,760.6 632.4,763.5 633.7,758.1 629.5,754.5 635.0,754.1" fill="#FFFFFF"/>
+<polygon points="706.3,749.0 708.4,754.1 713.9,754.5 709.7,758.1 711.0,763.5 706.3,760.6 701.6,763.5 702.9,758.1 698.7,754.5 704.2,754.1" fill="#FFFFFF"/>
+<polygon points="775.5,749.0 777.6,754.1 783.1,754.5 778.9,758.1 780.2,763.5 775.5,760.6 770.8,763.5 772.0,758.1 767.9,754.5 773.4,754.1" fill="#FFFFFF"/>
+<polygon points="983.0,749.0 985.1,754.1 990.6,754.5 986.4,758.1 987.7,763.5 983.0,760.6 978.3,763.5 979.5,758.1 975.4,754.5 980.9,754.1" fill="#FFFFFF"/>
+<polygon points="1052.1,749.0 1054.2,754.1 1059.7,754.5 1055.6,758.1 1056.8,763.5 1052.1,760.6 1047.4,763.5 1048.7,758.1 1044.5,754.5 1050.0,754.1" fill="#FFFFFF"/>
+<polygon points="1121.3,749.0 1123.4,754.1 1128.9,754.5 1124.7,758.1 1126.0,763.5 1121.3,760.6 1116.6,763.5 1117.9,758.1 1113.7,754.5 1119.2,754.1" fill="#FFFFFF"/>
+<polygon points="454.5,750.0 461.5,757.0 454.5,764.0 447.5,757.0" fill="#FFFFFF"/>
+<polygon points="662.0,750.0 669.0,757.0 662.0,764.0 655.0,757.0" fill="#FFFFFF"/>
+<polygon points="731.2,750.0 738.2,757.0 731.2,764.0 724.2,757.0" fill="#FFFFFF"/>
+<polygon points="1007.9,750.0 1014.9,757.0 1007.9,764.0 1000.9,757.0" fill="#FFFFFF"/>
+<polygon points="1146.2,750.0 1153.2,757.0 1146.2,764.0 1139.2,757.0" fill="#FFFFFF"/>
+<line x1="234.6" y1="737.0" x2="234.6" y2="742.0" stroke="#8E2A27" stroke-width="1" />
+<text x="237.6" y="734.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Rookie of the Year ’85</text>
+<line x1="442.1" y1="772.0" x2="442.1" y2="776.0" stroke="#8E2A27" stroke-width="1" />
+<text x="445.1" y="786.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >MVP + DPOY ’88</text>
+<line x1="926.2" y1="737.0" x2="926.2" y2="742.0" stroke="#8E2A27" stroke-width="1" />
+<text x="929.2" y="734.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Back, Mar ’95</text>
+<line x1="1133.8" y1="772.0" x2="1133.8" y2="776.0" stroke="#8E2A27" stroke-width="1" />
+<text x="1130.8" y="786.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="end" >6th title, ’98</text>
+<line x1="1479.6" y1="737.0" x2="1479.6" y2="742.0" stroke="#8E2A27" stroke-width="1" />
+<text x="1476.6" y="734.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="end" >Final game, Apr ’03</text>
+<text x="60.0" y="842.0" font-size="15" font-weight="800" fill="#1E1E1E" text-anchor="start" >Kobe Bryant</text>
+<rect x="200.5" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="269.7" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="338.8" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="408.0" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="477.2" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="546.3" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="615.5" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="684.7" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="753.8" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="823.0" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="892.2" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="961.3" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1030.5" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1099.7" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1168.8" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1238.0" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1307.2" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1376.3" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1445.5" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<rect x="1514.7" y="822.0" width="68.2" height="30.0" fill="#7E57C2" stroke="none" stroke-width="1" rx="0" />
+<polygon points="429.6,829.0 431.7,834.1 437.2,834.5 433.1,838.1 434.3,843.5 429.6,840.6 424.9,843.5 426.2,838.1 422.0,834.5 427.5,834.1" fill="#FFFFFF"/>
+<polygon points="498.8,829.0 500.9,834.1 506.4,834.5 502.2,838.1 503.5,843.5 498.8,840.6 494.1,843.5 495.4,838.1 491.2,834.5 496.7,834.1" fill="#FFFFFF"/>
+<polygon points="568.0,829.0 570.1,834.1 575.6,834.5 571.4,838.1 572.7,843.5 568.0,840.6 563.3,843.5 564.5,838.1 560.4,834.5 565.9,834.1" fill="#FFFFFF"/>
+<polygon points="1052.1,829.0 1054.2,834.1 1059.7,834.5 1055.6,838.1 1056.8,843.5 1052.1,840.6 1047.4,843.5 1048.7,838.1 1044.5,834.5 1050.0,834.1" fill="#FFFFFF"/>
+<polygon points="1121.3,829.0 1123.4,834.1 1128.9,834.5 1124.7,838.1 1126.0,843.5 1121.3,840.6 1116.6,843.5 1117.9,838.1 1113.7,834.5 1119.2,834.1" fill="#FFFFFF"/>
+<polygon points="1007.9,830.0 1014.9,837.0 1007.9,844.0 1000.9,837.0" fill="#FFFFFF"/>
+<line x1="234.6" y1="817.0" x2="234.6" y2="822.0" stroke="#4B2E83" stroke-width="1" />
+<text x="237.6" y="814.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Debut, ’96–97</text>
+<line x1="857.1" y1="817.0" x2="857.1" y2="822.0" stroke="#4B2E83" stroke-width="1" />
+<text x="860.1" y="814.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >81 points, Jan ’06</text>
+<line x1="1341.2" y1="817.0" x2="1341.2" y2="822.0" stroke="#4B2E83" stroke-width="1" />
+<text x="1344.2" y="814.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Achilles, Apr ’13</text>
+<line x1="1548.8" y1="852.0" x2="1548.8" y2="856.0" stroke="#4B2E83" stroke-width="1" />
+<text x="1545.8" y="866.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="end" >Final game: 60 pts</text>
+<text x="60.0" y="922.0" font-size="15" font-weight="800" fill="#1E1E1E" text-anchor="start" >LeBron James</text>
+<rect x="200.5" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="269.7" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="338.8" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="408.0" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="477.2" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="546.3" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="615.5" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="684.7" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="753.8" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="823.0" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="892.2" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="961.3" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1030.5" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1099.7" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1168.8" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1238.0" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1307.2" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1376.3" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1445.5" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1514.7" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1583.8" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1653.0" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1722.2" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="none" stroke-width="1" rx="0" />
+<rect x="1791.3" y="902.0" width="68.2" height="30.0" fill="#F2B134" stroke="#8A5A00" stroke-width="1.5" rx="0" opacity="0.35" stroke-dasharray="4 3"/>
+<polygon points="775.5,909.0 777.6,914.1 783.1,914.5 778.9,918.1 780.2,923.5 775.5,920.6 770.8,923.5 772.0,918.1 767.9,914.5 773.4,914.1" fill="#3A2A00"/>
+<polygon points="844.6,909.0 846.7,914.1 852.2,914.5 848.1,918.1 849.3,923.5 844.6,920.6 839.9,923.5 841.2,918.1 837.0,914.5 842.5,914.1" fill="#3A2A00"/>
+<polygon points="1052.1,909.0 1054.2,914.1 1059.7,914.5 1055.6,918.1 1056.8,923.5 1052.1,920.6 1047.4,923.5 1048.7,918.1 1044.5,914.5 1050.0,914.1" fill="#3A2A00"/>
+<polygon points="1328.8,909.0 1330.9,914.1 1336.4,914.5 1332.2,918.1 1333.5,923.5 1328.8,920.6 1324.1,923.5 1325.4,918.1 1321.2,914.5 1326.7,914.1" fill="#3A2A00"/>
+<polygon points="592.9,910.0 599.9,917.0 592.9,924.0 585.9,917.0" fill="#3A2A00"/>
+<polygon points="662.0,910.0 669.0,917.0 662.0,924.0 655.0,917.0" fill="#3A2A00"/>
+<polygon points="800.4,910.0 807.4,917.0 800.4,924.0 793.4,917.0" fill="#3A2A00"/>
+<polygon points="869.5,910.0 876.5,917.0 869.5,924.0 862.5,917.0" fill="#3A2A00"/>
+<line x1="234.6" y1="897.0" x2="234.6" y2="902.0" stroke="#8A5A00" stroke-width="1" />
+<text x="237.6" y="894.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >ROY ’04</text>
+<line x1="718.8" y1="897.0" x2="718.8" y2="902.0" stroke="#8A5A00" stroke-width="1" />
+<text x="721.8" y="894.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >The Decision, Jul ’10</text>
+<line x1="1272.1" y1="897.0" x2="1272.1" y2="902.0" stroke="#8A5A00" stroke-width="1" />
+<text x="1275.1" y="894.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Signs with Lakers ’18</text>
+<line x1="1548.8" y1="932.0" x2="1548.8" y2="936.0" stroke="#8A5A00" stroke-width="1" />
+<text x="1551.8" y="946.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="start" >Passes Kareem, Feb ’23</text>
+<line x1="1825.4" y1="897.0" x2="1825.4" y2="902.0" stroke="#8A5A00" stroke-width="1" />
+<text x="1822.4" y="894.0" font-size="11" font-weight="600" fill="#1E1E1E" text-anchor="end" >Signs with 76ers (in progress)</text>
+<rect x="826.5" y="750.0" width="61.2" height="14.0" fill="#FBFAF7" stroke="none" stroke-width="1" rx="3" opacity="0.92"/>
+<text x="857.1" y="761.0" font-size="11" font-weight="700" fill="#1E1E1E" text-anchor="middle" >Baseball</text>
+<rect x="1196.7" y="750.0" width="150.8" height="14.0" fill="#FBFAF7" stroke="none" stroke-width="1" rx="3" opacity="0.92"/>
+<text x="1272.1" y="761.0" font-size="11" font-weight="700" fill="#1E1E1E" text-anchor="middle" >Retired · Wizards exec</text>
+<line x1="1168.3" y1="718.0" x2="1168.3" y2="966.0" stroke="#3B3B3B" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="1162.3" y="982.0" font-size="13" font-weight="700" fill="#1E1E1E" text-anchor="end" >By the end of Year 14:  Jordan 6 titles  ·  Kobe 5  ·  LeBron 3</text>
+<text x="1174.3" y="982.0" font-size="12" font-weight="500" fill="#5B5B5B" text-anchor="start" >(Jordan’s Year 14 includes his baseball year: 13 seasons played  ·  LeBron’s fourth title came in Year 17)</text>
+<line x1="60.0" y1="998.0" x2="1860.0" y2="998.0" stroke="#D6D3CB" stroke-width="1" />
+<text x="60.0" y="1016.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="start" >Sources: NBA.com, ESPN, Associated Press, Britannica, Wikipedia; key dates cross-checked across at least two outlets. Original design, no logos or artwork.</text>
+<text x="60.0" y="1034.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="start" >Conventions: calendar axis uses season-start years (1984 = the 1984–85 season); offseason events sit at the start of the following season. MVP = regular-season MVP. All-Star counts through 2025–26.</text>
+<text x="60.0" y="1052.0" font-size="11" font-weight="500" fill="#5B5B5B" text-anchor="start" >*LeBron’s 24th season (2026–27, with the 76ers) is in progress, so no season stats are printed. Jordan’s 1994–95 season was 17 games. Made Nov 19, 2026.</text>
+</svg>
